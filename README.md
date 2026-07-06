@@ -172,4 +172,4 @@ tests/
 - The YAML loader is a minimal in-house parser; no `PyYAML` installation is needed.
 - `geodesic_fps` and `geodesic_dist` require `scipy` (for `distance_transform_edt`) and fall back gracefully if a path cannot be found within the foreground mask.
 - All random operations are seeded deterministically from `experiment.seed` plus per-image offsets, so results are fully reproducible.
-- The `connected` label uses 8-connectivity pixel BFS on the binary mask, which may differ from a topology-theoretic definition; both the raw connectivity flag and the component-membership information are preserved in `pair_records.csv` for downstream analysis.
+- The `connected` label uses 8-connectivity pixel BFS on the binary mask, which may differ from a topology-theoretic definition; both the raw connectivity flag and the component-membership information are preserved in `pair_records.csv` for downstream analysis.# region-pair-sampling
