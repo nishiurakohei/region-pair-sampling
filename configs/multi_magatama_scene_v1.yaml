@@ -1,0 +1,59 @@
+experiment:
+  name: connectivity_multi_magatama_scene_v1
+  seed: 42
+
+dataset:
+  dataset_mode: scene_query
+  image_size: 160
+  n_train: 6000
+  n_val: 1200
+  n_test: 1200
+  positive_ratio: 0.5
+  input_channels: [shape, point_A, point_B]
+  shape_families:
+    straight: 0.20
+    bezier_bend: 0.20
+    c_shape: 0.25
+    crescent: 0.35
+  radius_range: [2, 8]
+  tube_width_range: [3, 8]
+  bottleneck_width_range: [1.5, 4.0]
+  target_distance_range: [40, 100]
+  bend_strength_range: [8, 50]
+  arc_angle_range: [120, 320]
+  arc_radius_range: [25, 60]
+  noise_circles_range: [0, 16]
+  distractor_curves_range: [0, 2]
+  negative_modes:
+    near_gap: 0.5
+    break_bottleneck: 0.5
+
+  scene_shape_count_range: [3, 4]
+  scene_shape_families:
+    crescent: 0.55
+    c_shape: 0.25
+    bezier_bend: 0.20
+  scene_target_distance_range: [18, 40]
+  scene_bend_strength_range: [8, 22]
+  scene_arc_radius_range: [13, 24]
+  scene_arc_angle_range: [160, 320]
+  scene_tube_width_range: [2.4, 6.2]
+  scene_bridge_width_range: [1.5, 3.1]
+  scene_bridge_count_range: [1, 2]
+  scene_min_inter_shape_gap: 3.5
+  scene_queries_per_scene: 8
+  scene_cross_source_positive_ratio: 0.6
+  scene_require_cross_source_positive: true
+  scene_generation_attempts: 120
+
+render:
+  grayscale: false
+  render_thickness_px: 1
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  sample_dir: data/samples
+  model_dir: outputs/models
+  metric_dir: outputs/metrics
+  figure_dir: outputs/figures

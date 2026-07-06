@@ -1,0 +1,33 @@
+experiment:
+  name: region_pair_followup_diagnostics_stare_instruction_subset_v2
+  seed: 42
+
+data:
+  pair_generation_config: configs/region_pair_sampling_stare_instruction_subset_v2.yaml
+  pair_metrics_csv: outputs/region_pair_sampling_stare_instruction_subset_v2/metrics/pair_records.csv
+  pair_generation_output_dir: outputs/region_pair_sampling_stare_instruction_subset_v2
+  regenerate_pairs: false
+
+split:
+  train_fraction: 0.6
+  val_fraction: 0.2
+
+model:
+  input_size: 64
+  marker_radius: 2
+  batch_size: 256
+  epochs: 5
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  input_mode: mask_point_i_point_j
+  use_cuda: false
+  use_mps: true
+
+diagnostics:
+  example_visualization_per_group: 12
+  ablation_input_modes: [mask_point_i_point_j, point_i_point_j_only, mask_only, mask_merged_points]
+  random_loss_fraction: 0.2
+
+paths:
+  baseline_output_dir: outputs/region_pair_cnn_stare_instruction_subset_v2
+  output_dir: outputs/region_pair_followup_diagnostics_stare_instruction_subset_v2

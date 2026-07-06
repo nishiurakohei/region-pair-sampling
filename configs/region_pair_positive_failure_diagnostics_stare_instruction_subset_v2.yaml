@@ -1,0 +1,34 @@
+experiment:
+  name: region_pair_positive_failure_diagnostics_stare_instruction_subset_v2
+  seed: 42
+
+data:
+  pair_metrics_csv: outputs/region_pair_sampling_stare_instruction_subset_v2/metrics/pair_records.csv
+
+split:
+  train_fraction: 0.6
+  val_fraction: 0.2
+
+model:
+  input_size: 64
+  marker_radius: 2
+  batch_size: 256
+  epochs: 5
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  use_cuda: false
+  use_mps: true
+
+comparison:
+  input_modes: [mask_point_i_point_j, mask_point_i_point_j_line]
+  pool_sizes: [4, 8]
+  pos_weight_modes: [one, balanced]
+  line_width: 1
+
+visualization:
+  reference_condition: mask_point_i_point_j_pool4_pos_weight_one
+  per_group: 16
+  n_cols: 4
+
+paths:
+  output_dir: outputs/region_pair_positive_failure_diagnostics_stare_instruction_subset_v2

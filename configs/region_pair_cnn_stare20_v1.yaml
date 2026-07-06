@@ -1,0 +1,24 @@
+experiment:
+  name: region_pair_cnn_stare20_v1
+  seed: 42
+
+data:
+  pair_generation_config: configs/region_pair_sampling_stare_subset_v2.yaml
+  pair_metrics_csv: outputs/region_pair_sampling_stare_subset_v2/metrics/pair_records.csv
+  regenerate_pairs: false
+
+split:
+  train_fraction: 0.6
+  val_fraction: 0.2
+
+model:
+  input_size: 64
+  marker_radius: 2
+  batch_size: 128
+  epochs: 5
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  use_cuda: false
+
+paths:
+  output_dir: outputs/region_pair_cnn_stare20_v1

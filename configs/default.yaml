@@ -1,0 +1,27 @@
+experiment:
+  name: connectivity_synthetic_baseline
+  seed: 42
+
+dataset:
+  image_size: 128
+  n_train: 5000
+  n_val: 1000
+  n_test: 1000
+  positive_ratio: 0.5
+  radius_range: [2, 8]
+  target_distance_range: [40, 100]
+  n_noise_circles_range: [0, 40]
+  path_steps_range: [3, 20]
+  generation_mode: pre_positive_negative_pair
+
+render:
+  grayscale: true
+  render_thickness_px: 1
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  sample_dir: data/samples
+  model_dir: outputs/models
+  metric_dir: outputs/metrics
+  figure_dir: outputs/figures

@@ -1,0 +1,27 @@
+experiment:
+  name: region_pair_sampling_stare_full_v1
+  seed: 42
+
+dataset:
+  mask_glob: data/masks/*.png
+  sample_limit: 1800
+  mask_channel: 0
+  foreground_threshold: 128
+  invert_mask: false
+  min_component_area: 32
+
+sampling:
+  valid_thresholds: [1, 2, 3]
+  methods: [random, euclidean_fps, geodesic_fps, feature_diversity]
+  sample_foreground: true
+  sample_background: true
+  foreground_points_per_method: 4
+  background_points_per_method: 4
+  candidate_pool_limit: 2000
+  pair_component_mode: all_pairs
+
+visualization:
+  preview_limit_images: 8
+
+paths:
+  output_dir: outputs/region_pair_sampling_stare_full_v1

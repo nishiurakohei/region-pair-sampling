@@ -1,0 +1,21 @@
+experiment:
+  name: region_pair_sampling_v1
+  seed: 42
+
+dataset:
+  mask_glob: data/raw/test/images/*.png
+  sample_limit: 6
+  mask_channel: 0
+  foreground_threshold: 16
+  invert_mask: false
+  min_component_area: 64
+
+sampling:
+  valid_thresholds: [2, 4, 6]
+  methods: [random, euclidean_fps, geodesic_fps, feature_diversity]
+  points_per_method: 12
+  candidate_pool_limit: 4096
+  pair_component_mode: same_component
+
+paths:
+  output_dir: outputs/region_pair_sampling_v1

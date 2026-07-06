@@ -1,0 +1,29 @@
+experiment:
+  name: region_pair_sampling_stare_instruction_subset_v2
+  seed: 42
+
+dataset:
+  mask_glob: data/masks/*.png
+  sample_limit: 20
+  mask_channel: 0
+  foreground_threshold: 128
+  invert_mask: false
+  min_component_area: 32
+
+sampling:
+  valid_thresholds: [1, 2, 3]
+  methods: [random, euclidean_farthest, geodesic_farthest, boundary_crossing_targeted, boundary_crossing_stratified, feature_space_diverse, hard_pair_targeted, hard_pair_targeted_v2]
+  sample_foreground: true
+  sample_background: true
+  foreground_points_per_method: 10
+  background_points_per_method: 10
+  candidate_pool_limit: 2500
+  n_pairs_per_image: 96
+  feature_bin_count: 4
+  pair_component_mode: all_pairs
+
+visualization:
+  preview_limit_images: 6
+
+paths:
+  output_dir: outputs/region_pair_sampling_stare_instruction_subset_v2

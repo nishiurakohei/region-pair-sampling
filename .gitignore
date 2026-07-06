@@ -1,0 +1,45 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data — mask images are large and dataset-specific; not tracked in git.
+# Place your masks under data/masks/ locally (not committed).
+data/masks/*
+!data/masks/.gitkeep
+
+data/masks_region_pair_subset_v1/*
+!data/masks_region_pair_subset_v1/.gitkeep
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+data/samples/*
+!data/samples/.gitkeep
+
+# Outputs — all experiment results are generated at runtime; not tracked in git.
+outputs/*
+!outputs/.gitkeep
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
