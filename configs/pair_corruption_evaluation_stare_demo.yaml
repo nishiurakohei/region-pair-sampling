@@ -1,0 +1,53 @@
+input_pairs_csv: outputs/demo_pair_generation_stare_realdata/pairs.csv
+input_image_dir: data/masks
+output_dir: outputs/demo_pair_corruption_stare_realdata
+
+seed: 11
+label_source: original
+max_pairs: 24
+pair_selection_strategy: balanced_label_round_robin_image_method
+
+mask_channel: 0
+foreground_threshold: 16
+invert_mask: false
+min_component_size: 20
+
+corruption:
+  enabled: true
+  methods:
+    - "none"
+    - random_rectangle_mask
+    - line_occlusion
+    - point_neighborhood_mask
+    - gaussian_noise
+    - blur
+  num_trials_per_method: 2
+
+  random_rectangle_mask:
+    num_masks: 2
+    min_size: 8
+    max_size: 24
+
+  line_occlusion:
+    num_lines: 2
+    width: 2
+
+  point_neighborhood_mask:
+    radius: 6
+    target:
+      - point_a
+      - point_b
+
+  gaussian_noise:
+    sigma: 0.08
+
+  blur:
+    sigma: 1.0
+
+  review:
+    foreground_ratio_delta_threshold: 0.12
+    component_count_delta_threshold: 2
+    changed_pixel_ratio_threshold: 0.30
+    line_changed_fraction_threshold: 0.35
+    near_empty_foreground_threshold: 0.01
+    near_full_foreground_threshold: 0.99

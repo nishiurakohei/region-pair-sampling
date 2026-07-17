@@ -1,0 +1,52 @@
+input_dir: data/masks
+output_dir: outputs/demo_pair_generation_stare_realdata
+
+num_pairs_per_image: 24
+strict_num_pairs_per_image: true
+seed: 7
+max_images: 8
+
+positive_ratio: 0.5
+min_component_size: 20
+candidate_pool_size: 400
+points_per_method: 10
+
+mask_channel: auto
+foreground_threshold: 16
+binarization_mode: auto
+invert_mask: false
+use_alpha_channel: false
+auto_invert_if_foreground_dominates: false
+recursive: true
+input_extensions:
+  - .png
+
+valid_thresholds:
+  - 1.0
+  - 2.0
+
+feature_bin_count: 4
+sample_foreground: true
+sample_background: false
+pair_component_mode: same_region
+
+methods:
+  - random
+  - euclidean_farthest
+  - geodesic_farthest
+  - boundary_crossing_targeted
+
+visualization:
+  enabled: true
+  point_radius: 3
+  line_width: 2
+
+explanation:
+  geodesic_long_threshold: 80
+  geodesic_very_long_threshold: 160
+  ratio_high_threshold: 1.8
+  ratio_very_high_threshold: 3.0
+  boundary_crossing_multiple_threshold: 2
+  boundary_crossing_many_threshold: 5
+  near_boundary_threshold: 1.5
+  close_disconnected_euclidean_threshold: 18

@@ -6,6 +6,21 @@ Given a binary mask image (e.g., a retinal vessel segmentation), the pipeline sa
 
 > **Context.** This repository covers the *pair assignment* side of the project. A collaborating group is independently running topology-based and classification-difficulty experiments on the resulting pair records.
 
+## Collaborator Guides
+
+For the current dataset-agnostic pair-generation plus corruption pipeline, start here:
+
+- Shared guide hub: [`docs/shared_region_pair_pipeline/README.md`](docs/shared_region_pair_pipeline/README.md)
+- Japanese guide: [`docs/shared_region_pair_pipeline/README_ja.md`](docs/shared_region_pair_pipeline/README_ja.md)
+- English guide: [`docs/shared_region_pair_pipeline/README_en.md`](docs/shared_region_pair_pipeline/README_en.md)
+- Handoff guide (Japanese): [`docs/shared_region_pair_pipeline/HANDOFF_ja.md`](docs/shared_region_pair_pipeline/HANDOFF_ja.md)
+- Handoff guide (English): [`docs/shared_region_pair_pipeline/HANDOFF_en.md`](docs/shared_region_pair_pipeline/HANDOFF_en.md)
+- Quickstart (Japanese): [`docs/shared_region_pair_pipeline/QUICKSTART_ja.md`](docs/shared_region_pair_pipeline/QUICKSTART_ja.md)
+- Quickstart (English): [`docs/shared_region_pair_pipeline/QUICKSTART_en.md`](docs/shared_region_pair_pipeline/QUICKSTART_en.md)
+- Demo run summary (Japanese): [`docs/shared_region_pair_pipeline/DEMO_RUN_SUMMARY_ja.md`](docs/shared_region_pair_pipeline/DEMO_RUN_SUMMARY_ja.md)
+- Demo run summary (English): [`docs/shared_region_pair_pipeline/DEMO_RUN_SUMMARY_en.md`](docs/shared_region_pair_pipeline/DEMO_RUN_SUMMARY_en.md)
+- Dropbox bundle creator: [`scripts/create_collaborator_bundle.py`](scripts/create_collaborator_bundle.py)
+
 ## Repository Layout
 
 ```text

@@ -1,0 +1,52 @@
+input_dir: data/masks
+output_dir: outputs/generated_pairs
+
+num_pairs_per_image: 30
+strict_num_pairs_per_image: true
+seed: 0
+
+positive_ratio: 0.5
+min_component_size: 20
+candidate_pool_size: 300
+points_per_method: 12
+
+mask_channel: auto
+foreground_threshold: 16
+binarization_mode: auto
+invert_mask: false
+use_alpha_channel: false
+auto_invert_if_foreground_dominates: false
+recursive: true
+input_extensions:
+  - .png
+  - .jpg
+  - .jpeg
+  - .bmp
+  - .tif
+  - .tiff
+
+valid_threshold: 2.0
+feature_bin_count: 4
+sample_foreground: true
+sample_background: false
+pair_component_mode: same_region
+
+methods:
+  - random
+  - euclidean_farthest
+  - geodesic_farthest
+
+visualization:
+  enabled: true
+  point_radius: 3
+  line_width: 2
+
+explanation:
+  geodesic_long_threshold: 150
+  geodesic_very_long_threshold: 300
+  ratio_high_threshold: 2.0
+  ratio_very_high_threshold: 4.0
+  boundary_crossing_multiple_threshold: 3
+  boundary_crossing_many_threshold: 6
+  near_boundary_threshold: 2.0
+  close_disconnected_euclidean_threshold: 20

@@ -1,0 +1,69 @@
+input_pairs_csv: outputs/generated_pairs/pairs.csv
+input_image_dir: data/masks
+output_dir: outputs/pair_corruption_evaluation
+
+seed: 0
+label_source: original
+
+mask_channel: 0
+foreground_threshold: 16
+invert_mask: false
+min_component_size: 1
+
+corruption:
+  enabled: true
+  methods:
+    - "none"
+    - random_rectangle_mask
+    - random_circle_mask
+    - line_occlusion
+    - point_neighborhood_mask
+    - salt_and_pepper
+    - gaussian_noise
+    - blur
+    - erosion
+    - dilation
+  num_trials_per_method: 3
+
+  random_rectangle_mask:
+    num_masks: 3
+    min_size: 8
+    max_size: 32
+
+  random_circle_mask:
+    num_masks: 3
+    min_radius: 4
+    max_radius: 16
+
+  line_occlusion:
+    num_lines: 2
+    width: 3
+
+  point_neighborhood_mask:
+    radius: 8
+    target:
+      - point_a
+      - point_b
+
+  salt_and_pepper:
+    amount: 0.01
+
+  gaussian_noise:
+    sigma: 0.05
+
+  blur:
+    sigma: 1.0
+
+  erosion:
+    radius: 1
+
+  dilation:
+    radius: 1
+
+  review:
+    foreground_ratio_delta_threshold: 0.15
+    component_count_delta_threshold: 3
+    changed_pixel_ratio_threshold: 0.35
+    line_changed_fraction_threshold: 0.4
+    near_empty_foreground_threshold: 0.01
+    near_full_foreground_threshold: 0.99

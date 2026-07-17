@@ -70,8 +70,8 @@ def summarize_mask(mask: np.ndarray, image_id: str, image_path: str | Path) -> d
 def compute_distance_transform(mask: np.ndarray) -> np.ndarray:
     try:
         from scipy.ndimage import distance_transform_edt
-    except ImportError as exc:
-        raise ImportError("scipy is required for distance_transform_edt. Please install scipy.") from exc
+    except ImportError:
+        return _distance_transform_fallback(mask.astype(bool))
     return distance_transform_edt(mask)
 
 
@@ -1520,6 +1520,33 @@ def _foreground_bbox(mask: np.ndarray) -> tuple[int, int, int, int]:
     row_min, col_min = coords.min(axis=0)
     row_max, col_max = coords.max(axis=0)
     return int(row_min), int(col_min), int(row_max), int(col_max)
+
+
+def _distance_transform_fallback(mask: np.ndarray) -> np.ndarray:
+    mask = mask.astype(bool)
+    distances = np.full(mask.shape, np.inf, dtype=np.float64)
+    heap: list[tuple[float, int, int]] = []
+    for row in range(mask.shape[0]):
+        for col in range(mask.shape[1]):
+            if not mask[row, col]:
+                distances[row, col] = 0.0
+                heapq.heappush(heap, (0.0, row, col))
+    if not heap:
+        return distances
+    while heap:
+        cost, row, col = heapq.heappop(heap)
+        if cost > distances[row, col]:
+            continue
+        for delta_row, delta_col, weight in _NEIGHBORS_8:
+            next_row = row + delta_row
+            next_col = col + delta_col
+            if not _is_inside(mask.shape, next_row, next_col):
+                continue
+            next_cost = cost + weight
+            if next_cost < distances[next_row, next_col]:
+                distances[next_row, next_col] = next_cost
+                heapq.heappush(heap, (next_cost, next_row, next_col))
+    return distances
 
 
 def _mask_rgb(mask: np.ndarray) -> np.ndarray:
