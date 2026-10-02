@@ -1,0 +1,6 @@
+# Install the matching CUDA build of torch==2.8.0 first; see docs/NEXT_TASK.md.
+numpy==1.26.4
+matplotlib==3.10.9
+maze-dataset==1.1.0
+muutils==0.6.21
+zanj==0.3.1

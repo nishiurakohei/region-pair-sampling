@@ -1,0 +1,200 @@
+{
+  "config": {
+    "N": 15,
+    "p": 0.64,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      14,
+      14
+    ],
+    "sizes": {
+      "train": 8000,
+      "val": 1000,
+      "test": 2000
+    },
+    "split_seeds": {
+      "train": 21001,
+      "val": 22001,
+      "test": 23001
+    },
+    "levels": [
+      "H0",
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "h3_min_path": 34,
+    "h3_interior_radius": 3,
+    "training": {
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "batch_size": 64,
+      "max_epochs": 40,
+      "patience": 8,
+      "learning_rate": 0.0007,
+      "weight_decay": 0.0005
+    },
+    "phase1_source": "/Users/nishiurakohei/Library/Application Support/Claude-3p/local-agent-mode-sessions/c4020c52-61d0-4248-b9f1-8242a1a346c1/00000000-0000-4000-8000-000000000001/f9975124/outputs/phase1"
+  },
+  "H0": {
+    "train": {
+      "samples": 8000,
+      "positive_rate": 0.4905
+    },
+    "val": {
+      "samples": 1000,
+      "positive_rate": 0.499
+    },
+    "test": {
+      "samples": 2000,
+      "positive_rate": 0.5155
+    }
+  },
+  "H1": {
+    "train": {
+      "raw_generated": 10574,
+      "candidate_near_miss": 4000,
+      "valid_pivotal_edges": 13408,
+      "valid_control_edges": 0,
+      "accepted_pairs": 4000,
+      "accepted_samples": 8000,
+      "acceptance_rate": 0.3782863627766219,
+      "generation_seconds": 6.611796855926514,
+      "reject_reasons": {
+        "already_reachable": 5239,
+        "no_pivot": 1335
+      }
+    },
+    "val": {
+      "raw_generated": 1254,
+      "candidate_near_miss": 500,
+      "valid_pivotal_edges": 1653,
+      "valid_control_edges": 0,
+      "accepted_pairs": 500,
+      "accepted_samples": 1000,
+      "acceptance_rate": 0.39872408293460926,
+      "generation_seconds": 0.8138828277587891,
+      "reject_reasons": {
+        "already_reachable": 605,
+        "no_pivot": 149
+      }
+    },
+    "test": {
+      "raw_generated": 2663,
+      "candidate_near_miss": 1000,
+      "valid_pivotal_edges": 3281,
+      "valid_control_edges": 0,
+      "accepted_pairs": 1000,
+      "accepted_samples": 2000,
+      "acceptance_rate": 0.3755163349605708,
+      "generation_seconds": 1.6301100254058838,
+      "reject_reasons": {
+        "already_reachable": 1357,
+        "no_pivot": 306
+      }
+    }
+  },
+  "H2": {
+    "train": {
+      "raw_generated": 10431,
+      "candidate_near_miss": 4003,
+      "valid_pivotal_edges": 13668,
+      "valid_control_edges": 4000,
+      "accepted_pairs": 4000,
+      "accepted_samples": 8000,
+      "acceptance_rate": 0.3834723420573291,
+      "generation_seconds": 7.040444850921631,
+      "reject_reasons": {
+        "already_reachable": 5172,
+        "no_pivot": 1256,
+        "no_control": 3
+      }
+    },
+    "val": {
+      "raw_generated": 1331,
+      "candidate_near_miss": 500,
+      "valid_pivotal_edges": 1614,
+      "valid_control_edges": 500,
+      "accepted_pairs": 500,
+      "accepted_samples": 1000,
+      "acceptance_rate": 0.3756574004507889,
+      "generation_seconds": 0.8825149536132812,
+      "reject_reasons": {
+        "already_reachable": 665,
+        "no_pivot": 166
+      }
+    },
+    "test": {
+      "raw_generated": 2646,
+      "candidate_near_miss": 1002,
+      "valid_pivotal_edges": 3231,
+      "valid_control_edges": 1000,
+      "accepted_pairs": 1000,
+      "accepted_samples": 2000,
+      "acceptance_rate": 0.3779289493575208,
+      "generation_seconds": 1.7957520484924316,
+      "reject_reasons": {
+        "already_reachable": 1290,
+        "no_pivot": 354,
+        "no_control": 2
+      }
+    }
+  },
+  "H3": {
+    "train": {
+      "raw_generated": 169707,
+      "candidate_near_miss": 66123,
+      "valid_pivotal_edges": 222983,
+      "valid_control_edges": 4000,
+      "accepted_pairs": 4000,
+      "accepted_samples": 8000,
+      "acceptance_rate": 0.02357003541397821,
+      "generation_seconds": 60.20576882362366,
+      "reject_reasons": {
+        "pivot_not_interior": 55755,
+        "path_too_short": 6361,
+        "already_reachable": 82943,
+        "no_pivot": 20641,
+        "no_control": 7
+      }
+    },
+    "val": {
+      "raw_generated": 20769,
+      "candidate_near_miss": 8030,
+      "valid_pivotal_edges": 27439,
+      "valid_control_edges": 500,
+      "accepted_pairs": 500,
+      "accepted_samples": 1000,
+      "acceptance_rate": 0.02407434156675815,
+      "generation_seconds": 7.4941627979278564,
+      "reject_reasons": {
+        "already_reachable": 10214,
+        "path_too_short": 768,
+        "pivot_not_interior": 6762,
+        "no_pivot": 2525
+      }
+    },
+    "test": {
+      "raw_generated": 43328,
+      "candidate_near_miss": 16674,
+      "valid_pivotal_edges": 56074,
+      "valid_control_edges": 1000,
+      "accepted_pairs": 1000,
+      "accepted_samples": 2000,
+      "acceptance_rate": 0.02307976366322009,
+      "generation_seconds": 15.700729846954346,
+      "reject_reasons": {
+        "pivot_not_interior": 14099,
+        "already_reachable": 21433,
+        "path_too_short": 1575,
+        "no_pivot": 5221
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "seed": 42,
+    "maze_size": 89,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 12.629266088008881,
+    "dataset_sha256": "64ac930cd3120b95590f26c0032ef56b6119cf1d5400e5f805d9214e2466d108"
+  },
+  {
+    "seed": 43,
+    "maze_size": 89,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 12.629266088008881,
+    "dataset_sha256": "b0b6dbf8f1afa39feb5c682c485b1aa4db25ab8094c3ac8c12859f3e914ab6db"
+  },
+  {
+    "seed": 44,
+    "maze_size": 89,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 12.629266088008881,
+    "dataset_sha256": "82fbca09c7633217df028c978603dcad4a554ec48f1d801ed8cc8e84518078f0"
+  },
+  {
+    "seed": 45,
+    "maze_size": 89,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 12.629266088008881,
+    "dataset_sha256": "cc4741b9c9e1f6ee350bfd409b7c9c93b3ac81839db1c9ed5fb3d63abbf8543a"
+  },
+  {
+    "seed": 46,
+    "maze_size": 89,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 12.629266088008881,
+    "dataset_sha256": "477d7fb46a0523094badd9bb17063b3b338092a1609c6eb04640b864d6998802"
+  },
+  {
+    "seed": 42,
+    "maze_size": 89,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 42.09755362669627,
+    "dataset_sha256": "64ac930cd3120b95590f26c0032ef56b6119cf1d5400e5f805d9214e2466d108"
+  },
+  {
+    "seed": 43,
+    "maze_size": 89,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 42.09755362669627,
+    "dataset_sha256": "b0b6dbf8f1afa39feb5c682c485b1aa4db25ab8094c3ac8c12859f3e914ab6db"
+  },
+  {
+    "seed": 44,
+    "maze_size": 89,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 42.09755362669627,
+    "dataset_sha256": "82fbca09c7633217df028c978603dcad4a554ec48f1d801ed8cc8e84518078f0"
+  },
+  {
+    "seed": 45,
+    "maze_size": 89,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 42.09755362669627,
+    "dataset_sha256": "cc4741b9c9e1f6ee350bfd409b7c9c93b3ac81839db1c9ed5fb3d63abbf8543a"
+  },
+  {
+    "seed": 46,
+    "maze_size": 89,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 42.09755362669627,
+    "dataset_sha256": "477d7fb46a0523094badd9bb17063b3b338092a1609c6eb04640b864d6998802"
+  },
+  {
+    "seed": 42,
+    "maze_size": 89,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 126.2926608800888,
+    "dataset_sha256": "64ac930cd3120b95590f26c0032ef56b6119cf1d5400e5f805d9214e2466d108"
+  },
+  {
+    "seed": 43,
+    "maze_size": 89,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 126.2926608800888,
+    "dataset_sha256": "b0b6dbf8f1afa39feb5c682c485b1aa4db25ab8094c3ac8c12859f3e914ab6db"
+  },
+  {
+    "seed": 44,
+    "maze_size": 89,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 126.2926608800888,
+    "dataset_sha256": "82fbca09c7633217df028c978603dcad4a554ec48f1d801ed8cc8e84518078f0"
+  },
+  {
+    "seed": 45,
+    "maze_size": 89,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 126.2926608800888,
+    "dataset_sha256": "cc4741b9c9e1f6ee350bfd409b7c9c93b3ac81839db1c9ed5fb3d63abbf8543a"
+  },
+  {
+    "seed": 46,
+    "maze_size": 89,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 126.2926608800888,
+    "dataset_sha256": "477d7fb46a0523094badd9bb17063b3b338092a1609c6eb04640b864d6998802"
+  },
+  {
+    "seed": 42,
+    "maze_size": 89,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 420.9755362669627,
+    "dataset_sha256": "64ac930cd3120b95590f26c0032ef56b6119cf1d5400e5f805d9214e2466d108"
+  },
+  {
+    "seed": 43,
+    "maze_size": 89,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 420.9755362669627,
+    "dataset_sha256": "b0b6dbf8f1afa39feb5c682c485b1aa4db25ab8094c3ac8c12859f3e914ab6db"
+  },
+  {
+    "seed": 44,
+    "maze_size": 89,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 420.9755362669627,
+    "dataset_sha256": "82fbca09c7633217df028c978603dcad4a554ec48f1d801ed8cc8e84518078f0"
+  },
+  {
+    "seed": 45,
+    "maze_size": 89,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 420.9755362669627,
+    "dataset_sha256": "cc4741b9c9e1f6ee350bfd409b7c9c93b3ac81839db1c9ed5fb3d63abbf8543a"
+  },
+  {
+    "seed": 46,
+    "maze_size": 89,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 420.9755362669627,
+    "dataset_sha256": "477d7fb46a0523094badd9bb17063b3b338092a1609c6eb04640b864d6998802"
+  },
+  {
+    "seed": 42,
+    "maze_size": 89,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1262.926608800888,
+    "dataset_sha256": "64ac930cd3120b95590f26c0032ef56b6119cf1d5400e5f805d9214e2466d108"
+  },
+  {
+    "seed": 43,
+    "maze_size": 89,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1262.926608800888,
+    "dataset_sha256": "b0b6dbf8f1afa39feb5c682c485b1aa4db25ab8094c3ac8c12859f3e914ab6db"
+  },
+  {
+    "seed": 44,
+    "maze_size": 89,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1262.926608800888,
+    "dataset_sha256": "82fbca09c7633217df028c978603dcad4a554ec48f1d801ed8cc8e84518078f0"
+  },
+  {
+    "seed": 45,
+    "maze_size": 89,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1262.926608800888,
+    "dataset_sha256": "cc4741b9c9e1f6ee350bfd409b7c9c93b3ac81839db1c9ed5fb3d63abbf8543a"
+  },
+  {
+    "seed": 46,
+    "maze_size": 89,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1262.926608800888,
+    "dataset_sha256": "477d7fb46a0523094badd9bb17063b3b338092a1609c6eb04640b864d6998802"
+  }
+]

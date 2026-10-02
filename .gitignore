@@ -13,6 +13,8 @@ __pycache__/
 
 # Virtual environments
 .venv/
+.venv-gpu/
+.train_venv/
 venv/
 env/
 
@@ -43,3 +45,19 @@ outputs/*
 *.ckpt
 *.npz
 *.npy
+*.safetensors
+*.zanj
+
+# Maze external-validation sources/data are reproducibly restored from docs/NEXT_TASK.md.
+hard_maze/external_validation/upstream/
+hard_maze/external_validation/data/
+
+# Keep compact metrics/reports, not generated model state or pair-level dumps.
+hard_maze/results_external/**/checkpoints/
+hard_maze/results_external/**/per_pair_predictions.csv
+hard_maze/results_external/**/research_memory.yaml
+hard_maze/results_phase*/**/checkpoints/
+hard_maze/results_phase*/**/per_pair_predictions.csv
+hard_maze/results_phase*/**/figures/failure_cases/
+hard_maze/results_external/stage0_5_*pilot*/
+hard_maze/results_external/stage1_aux_pilot/

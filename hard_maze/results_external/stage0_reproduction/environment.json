@@ -1,0 +1,9 @@
+{
+  "python": "3.13.12 | packaged by conda-forge | (main, Feb  5 2026, 06:11:05) [Clang 19.1.7 ]",
+  "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+  "torch": "2.13.0",
+  "numpy": "1.26.4",
+  "maze_dataset": "1.1.0",
+  "muutils": "0.6.21",
+  "device": "cpu"
+}

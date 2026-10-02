@@ -1,0 +1,9 @@
+{
+  "model": "dt_net",
+  "seeds": [42, 43, 44, 45, 46],
+  "batch_size": 20,
+  "id": {"num_mazes": 100, "maze_sizes": [9], "percolations": [0.0], "deadend_starts": [true], "iterations": [30]},
+  "percolation": {"num_mazes": 100, "maze_sizes": [9], "percolations": [0.0, 0.005, 0.01, 0.02, 0.03, 0.04], "deadend_starts": [true], "iterations": [30]},
+  "deadend_start": {"num_mazes": 100, "maze_sizes": [9], "percolations": [0.0], "deadend_starts": [true, false], "iterations": [30]},
+  "maze_size": {"num_mazes": 20, "maze_sizes": [9, 19, 29, 49], "percolations": [0.0], "deadend_starts": [true], "iterations": [30, 100, 300]}
+}

@@ -1,0 +1,28 @@
+{
+  "scope": "Full Stage 0: DT-Net, maze sizes 9\u201399, up to 3000 iterations, percolation and deadend-start shifts",
+  "checks": {
+    "upstream_commit_recorded": true,
+    "upstream_clean": true,
+    "config_recorded": true,
+    "expected_rows": true,
+    "five_consistent_seeds": true,
+    "distinct_seed_datasets": true,
+    "id_reproduced": true,
+    "percolation_decline_reproduced": true,
+    "deadend_decline_reproduced": true,
+    "iteration_recovery_reproduced": true,
+    "full_size_grid_complete": true,
+    "tail_expected_rows": true,
+    "tail_five_distinct_seeds": true,
+    "large_size_extrapolation_reproduced": true,
+    "figures_complete": true
+  },
+  "all_ok": true,
+  "gate0_screening_pass": true,
+  "full_gate0_complete": true,
+  "full_gate0_missing": [],
+  "limitations": [
+    "Tail sizes use one maze per each of five dataset seeds; the paper used 100 mazes per point.",
+    "PI-Net artifacts are absent, so DT-Net is the single reproduction target."
+  ]
+}

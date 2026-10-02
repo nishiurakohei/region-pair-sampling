@@ -1,0 +1,31 @@
+{
+  "model_seeds": [101, 102, 103],
+  "data_split_seed": 42,
+  "shuffle_seeds": [1101, 1102, 1103],
+  "progressive_seeds": [2101, 2102, 2103],
+  "maze_size": 9,
+  "train_examples": 5000,
+  "val_examples": 1000,
+  "batch_size": 50,
+  "eval_batch_size": 250,
+  "epochs": 10,
+  "width": 128,
+  "train_iterations": 30,
+  "progressive_alpha": 0.01,
+  "optimizer": "adam",
+  "base_lr": 0.001,
+  "recurrent_lr_divisor": 30,
+  "weight_decay": 0.0002,
+  "warmup_epochs": 2,
+  "lr_milestones": [100],
+  "lr_factor": 0.1,
+  "checkpoint_criterion": "validation_exact_accuracy",
+  "resource_bounded_deviations": [
+    "5000 rather than 40000 training mazes",
+    "1000 rather than 10000 validation mazes",
+    "10 rather than 50 epochs",
+    "2 rather than 10 warmup epochs"
+  ],
+  "upstream_training_source": "aks2203/deep-thinking@152fb1182fb5dc11275859407ceec46102c20e42",
+  "evaluation_source": "mines-opt-ml/maze-extrapolation@6d09263fdb8d61274e4b0e046e07ed929b35af12"
+}

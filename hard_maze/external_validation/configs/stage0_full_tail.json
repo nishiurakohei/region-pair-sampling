@@ -1,0 +1,9 @@
+{
+  "model": "dt_net",
+  "seeds": [42, 43, 44, 45, 46],
+  "num_mazes_per_seed": 1,
+  "maze_sizes": [39, 59, 69, 79, 89, 99],
+  "percolation": 0.0,
+  "deadend_start": true,
+  "iterations": [30, 100, 300, 1000, 3000]
+}

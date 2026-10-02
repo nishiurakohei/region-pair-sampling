@@ -1,0 +1,231 @@
+{
+  "H0": {
+    "splits": {
+      "train": {
+        "samples": 8000,
+        "positive_rate": 0.4905,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "val": {
+        "samples": 1000,
+        "positive_rate": 0.499,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "test": {
+        "samples": 2000,
+        "positive_rate": 0.5155,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      }
+    },
+    "base_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "no_leakage_ok": true,
+    "bayes_ceiling": 1.0,
+    "all_ok": true
+  },
+  "H1": {
+    "splits": {
+      "train": {
+        "samples": 200,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "val": {
+        "samples": 50,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "test": {
+        "samples": 100,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      }
+    },
+    "base_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "no_leakage_ok": true,
+    "bayes_ceiling": 1.0,
+    "all_ok": true
+  },
+  "H2": {
+    "splits": {
+      "train": {
+        "samples": 200,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "val": {
+        "samples": 50,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "test": {
+        "samples": 100,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      }
+    },
+    "base_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "no_leakage_ok": true,
+    "bayes_ceiling": 1.0,
+    "all_ok": true
+  },
+  "H3": {
+    "splits": {
+      "train": {
+        "samples": 200,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "val": {
+        "samples": 50,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      },
+      "test": {
+        "samples": 100,
+        "positive_rate": 0.5,
+        "bfs_label_mismatches": 0,
+        "positive_pivot_close_failures": 0,
+        "negative_pivot_open_failures": 0,
+        "negative_one_flip_failures": 0,
+        "pair_edge_count_mismatches": 0,
+        "pair_component_count_mismatches": 0,
+        "pair_beta1_mismatches": 0,
+        "pair_id_or_seed_mismatches": 0,
+        "h3_path_failures": 0,
+        "h3_interior_failures": 0,
+        "ok": true
+      }
+    },
+    "base_overlap": {
+      "train_val": 0,
+      "train_test": 0,
+      "val_test": 0
+    },
+    "no_leakage_ok": true,
+    "bayes_ceiling": 1.0,
+    "all_ok": true
+  },
+  "all_ok": true
+}

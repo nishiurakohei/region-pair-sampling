@@ -1,0 +1,22 @@
+{
+  "checks": {
+    "endpoints_distinct": true,
+    "main_pair_excluded": true,
+    "minimum_manhattan": true,
+    "normalization_exact": true,
+    "fixed_pair_count": true,
+    "train_val_maze_disjoint": true,
+    "bfs_targets_recomputed": true,
+    "bfs_matches_raster_solution": true,
+    "outputs_finite": true,
+    "prediction_count": true,
+    "checkpoint_present": true,
+    "training_completed": true,
+    "positive_r2": true,
+    "beats_constant": true,
+    "beats_manhattan_linear": true,
+    "figures_complete": true
+  },
+  "all_ok": true,
+  "stage1_success": true
+}

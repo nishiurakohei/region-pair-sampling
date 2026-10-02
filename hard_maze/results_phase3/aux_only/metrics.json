@@ -1,0 +1,396 @@
+{
+  "config": {
+    "aux_only_seeds": [
+      1,
+      2,
+      3
+    ],
+    "multitask_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "models": [
+      "cnn",
+      "resnet"
+    ],
+    "lambdas": [
+      0.0,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ],
+    "k_values": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "primary_k": 16,
+    "k_pilot_lambda": 0.03,
+    "d_min": 5,
+    "batch_size": 64,
+    "max_epochs": 40,
+    "patience": 8,
+    "learning_rate": 0.0007,
+    "weight_decay": 0.0005,
+    "pair_seed": 314159,
+    "shuffle_seed": 271828
+  },
+  "models": {
+    "cnn": {
+      "per_seed": [
+        {
+          "accuracy": 0.7516875,
+          "balanced_accuracy": 0.7516875000000001,
+          "connected_recall": 0.7199375,
+          "disconnected_recall": 0.7834375,
+          "auroc": 0.8284468125,
+          "bce": 0.5057915977981351,
+          "brier": 0.16825501829013803
+        },
+        {
+          "accuracy": 0.7465,
+          "balanced_accuracy": 0.7464999999999999,
+          "connected_recall": 0.733,
+          "disconnected_recall": 0.76,
+          "auroc": 0.82540691015625,
+          "bce": 0.5104738266055668,
+          "brier": 0.17003439200757298
+        },
+        {
+          "accuracy": 0.74190625,
+          "balanced_accuracy": 0.74190625,
+          "connected_recall": 0.7156875,
+          "disconnected_recall": 0.768125,
+          "auroc": 0.821385796875,
+          "bce": 0.5147572213732271,
+          "brier": 0.17174799762045032
+        }
+      ],
+      "aggregate": {
+        "accuracy": {
+          "mean": 0.7466979166666666,
+          "std": 0.003995630208601486
+        },
+        "balanced_accuracy": {
+          "mean": 0.7466979166666666,
+          "std": 0.0039956302086015345
+        },
+        "connected_recall": {
+          "mean": 0.722875,
+          "std": 0.007366697303857842
+        },
+        "disconnected_recall": {
+          "mean": 0.7705208333333333,
+          "std": 0.00971713656668237
+        },
+        "auroc": {
+          "mean": 0.8250798398437501,
+          "std": 0.0028919101710475586
+        },
+        "bce": {
+          "mean": 0.510340881925643,
+          "std": 0.0036614074924361563
+        },
+        "brier": {
+          "mean": 0.17001246930605377,
+          "std": 0.0014260870950795488
+        }
+      },
+      "distance": {
+        "1": {
+          "grid": [
+            {
+              "range": "5-8",
+              "count": 9871,
+              "accuracy": 0.760004052274339
+            },
+            {
+              "range": "9-13",
+              "count": 12545,
+              "accuracy": 0.7500996412913511
+            },
+            {
+              "range": "14-+",
+              "count": 9584,
+              "accuracy": 0.7452003338898163
+            }
+          ],
+          "graph_connected": [
+            {
+              "range": "5-10",
+              "count": 4293,
+              "accuracy": 0.821337060330771
+            },
+            {
+              "range": "11-20",
+              "count": 8136,
+              "accuracy": 0.741519174041298
+            },
+            {
+              "range": "21-+",
+              "count": 3571,
+              "accuracy": 0.5488658639036684
+            }
+          ]
+        },
+        "2": {
+          "grid": [
+            {
+              "range": "5-8",
+              "count": 9871,
+              "accuracy": 0.7583831425387498
+            },
+            {
+              "range": "9-13",
+              "count": 12545,
+              "accuracy": 0.7410920685532084
+            },
+            {
+              "range": "14-+",
+              "count": 9584,
+              "accuracy": 0.7413397328881469
+            }
+          ],
+          "graph_connected": [
+            {
+              "range": "5-10",
+              "count": 4293,
+              "accuracy": 0.8360121127416725
+            },
+            {
+              "range": "11-20",
+              "count": 8136,
+              "accuracy": 0.7511061946902655
+            },
+            {
+              "range": "21-+",
+              "count": 3571,
+              "accuracy": 0.5679081489778773
+            }
+          ]
+        },
+        "3": {
+          "grid": [
+            {
+              "range": "5-8",
+              "count": 9871,
+              "accuracy": 0.7464289332387802
+            },
+            {
+              "range": "9-13",
+              "count": 12545,
+              "accuracy": 0.741410920685532
+            },
+            {
+              "range": "14-+",
+              "count": 9584,
+              "accuracy": 0.7378964941569283
+            }
+          ],
+          "graph_connected": [
+            {
+              "range": "5-10",
+              "count": 4293,
+              "accuracy": 0.8262287444677382
+            },
+            {
+              "range": "11-20",
+              "count": 8136,
+              "accuracy": 0.7388151425762045
+            },
+            {
+              "range": "21-+",
+              "count": 3571,
+              "accuracy": 0.530103612433492
+            }
+          ]
+        }
+      }
+    },
+    "resnet": {
+      "per_seed": [
+        {
+          "accuracy": 0.6913125,
+          "balanced_accuracy": 0.6913125,
+          "connected_recall": 0.687625,
+          "disconnected_recall": 0.695,
+          "auroc": 0.7638858984375,
+          "bce": 0.5867553225213676,
+          "brier": 0.19898149692866512
+        },
+        {
+          "accuracy": 0.6766875,
+          "balanced_accuracy": 0.6766875,
+          "connected_recall": 0.652625,
+          "disconnected_recall": 0.70075,
+          "auroc": 0.746355177734375,
+          "bce": 0.5944410843758894,
+          "brier": 0.20430682533269673
+        },
+        {
+          "accuracy": 0.69375,
+          "balanced_accuracy": 0.6937500000000001,
+          "connected_recall": 0.6635625,
+          "disconnected_recall": 0.7239375,
+          "auroc": 0.761761896484375,
+          "bce": 0.5813875343232369,
+          "brier": 0.19849921748227323
+        }
+      ],
+      "aggregate": {
+        "accuracy": {
+          "mean": 0.68725,
+          "std": 0.007534815027590253
+        },
+        "balanced_accuracy": {
+          "mean": 0.68725,
+          "std": 0.007534815027590286
+        },
+        "connected_recall": {
+          "mean": 0.6679375000000002,
+          "std": 0.014619746207327505
+        },
+        "disconnected_recall": {
+          "mean": 0.7065625,
+          "std": 0.012508226459681134
+        },
+        "auroc": {
+          "mean": 0.7573343242187499,
+          "std": 0.007811704432804347
+        },
+        "bce": {
+          "mean": 0.5875279804068313,
+          "std": 0.00535702295435646
+        },
+        "brier": {
+          "mean": 0.20059584658121168,
+          "std": 0.0026314344423505457
+        }
+      },
+      "distance": {
+        "1": {
+          "grid": [
+            {
+              "range": "5-8",
+              "count": 9871,
+              "accuracy": 0.6986120960389018
+            },
+            {
+              "range": "9-13",
+              "count": 12545,
+              "accuracy": 0.6781984854523715
+            },
+            {
+              "range": "14-+",
+              "count": 9584,
+              "accuracy": 0.7009599332220368
+            }
+          ],
+          "graph_connected": [
+            {
+              "range": "5-10",
+              "count": 4293,
+              "accuracy": 0.7926857675285348
+            },
+            {
+              "range": "11-20",
+              "count": 8136,
+              "accuracy": 0.7093166175024582
+            },
+            {
+              "range": "21-+",
+              "count": 3571,
+              "accuracy": 0.5119014281713805
+            }
+          ]
+        },
+        "2": {
+          "grid": [
+            {
+              "range": "5-8",
+              "count": 9871,
+              "accuracy": 0.6858474318711377
+            },
+            {
+              "range": "9-13",
+              "count": 12545,
+              "accuracy": 0.6650458349940215
+            },
+            {
+              "range": "14-+",
+              "count": 9584,
+              "accuracy": 0.682491652754591
+            }
+          ],
+          "graph_connected": [
+            {
+              "range": "5-10",
+              "count": 4293,
+              "accuracy": 0.7712555322618215
+            },
+            {
+              "range": "11-20",
+              "count": 8136,
+              "accuracy": 0.6717059980334317
+            },
+            {
+              "range": "21-+",
+              "count": 3571,
+              "accuracy": 0.46653598431811816
+            }
+          ]
+        },
+        "3": {
+          "grid": [
+            {
+              "range": "5-8",
+              "count": 9871,
+              "accuracy": 0.7004356194914396
+            },
+            {
+              "range": "9-13",
+              "count": 12545,
+              "accuracy": 0.6804304503786369
+            },
+            {
+              "range": "14-+",
+              "count": 9584,
+              "accuracy": 0.7042988313856428
+            }
+          ],
+          "graph_connected": [
+            {
+              "range": "5-10",
+              "count": 4293,
+              "accuracy": 0.7752154670393664
+            },
+            {
+              "range": "11-20",
+              "count": 8136,
+              "accuracy": 0.6816617502458211
+            },
+            {
+              "range": "21-+",
+              "count": 3571,
+              "accuracy": 0.48809857182861943
+            }
+          ]
+        }
+      }
+    }
+  },
+  "constant_baseline": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "auroc": 0.5,
+    "bce": 0.6931471805599453,
+    "brier": 0.25
+  }
+}

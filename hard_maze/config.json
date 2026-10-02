@@ -1,0 +1,20 @@
+{
+  "N": 15,
+  "p": 0.64,
+  "start": [0, 0],
+  "goal": [14, 14],
+  "sizes": {"train": 8000, "val": 1000, "test": 2000},
+  "split_seeds": {"train": 21001, "val": 22001, "test": 23001},
+  "levels": ["H0", "H1", "H2", "H3"],
+  "h3_min_path": 34,
+  "h3_interior_radius": 3,
+  "training": {
+    "seeds": [1, 2, 3],
+    "batch_size": 64,
+    "max_epochs": 40,
+    "patience": 8,
+    "learning_rate": 0.0007,
+    "weight_decay": 0.0005
+  },
+  "phase1_source": "/Users/nishiurakohei/Library/Application Support/Claude-3p/local-agent-mode-sessions/c4020c52-61d0-4248-b9f1-8242a1a346c1/00000000-0000-4000-8000-000000000001/f9975124/outputs/phase1"
+}

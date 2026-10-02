@@ -1,0 +1,94 @@
+{
+  "h3_file_sha256": {
+    "train": "498d210b56dc51e2d1a659d5232cf6e60ae19a8d57ed94c98e5ed475fcd4f89e",
+    "val": "d8b381b33245a1a4a3c9d309d90c4f8fae630e64a8a390e05939b311de70c567",
+    "test": "953b280477fea63b077536d4ac8b9cf50d57b072a6c130a6ad3027a8f4937ec6"
+  },
+  "class_balance_test": 0.5,
+  "pair_positive_then_negative": true,
+  "pair_match_rates": {
+    "edge_count": 1.0,
+    "component_count": 1.0,
+    "beta1": 1.0
+  },
+  "beta1_spot_recalculation_errors": 0,
+  "previous_h3_verification_all_ok": true,
+  "no_split_leakage": true,
+  "split_base_overlap": {
+    "train_val": 0,
+    "train_test": 0,
+    "val_test": 0
+  },
+  "bayes_accuracy": 1.0,
+  "prior_prediction_reuse_exact": {
+    "cnn": {
+      "1": true,
+      "2": true,
+      "3": true
+    },
+    "resnet": {
+      "1": true,
+      "2": true,
+      "3": true
+    }
+  },
+  "five_seed_main_accuracy": {
+    "cnn": {
+      "per_seed": [
+        0.562,
+        0.5675,
+        0.5495,
+        0.557,
+        0.5625
+      ],
+      "mean": 0.5597000000000001,
+      "std": 0.006087692502089774
+    },
+    "resnet": {
+      "per_seed": [
+        0.55,
+        0.5095,
+        0.506,
+        0.717,
+        0.507
+      ],
+      "mean": 0.5579,
+      "std": 0.08124309201402909
+    }
+  },
+  "shuffle_checks": {
+    "1": {
+      "changed": true,
+      "multiset_preserved": true,
+      "seed": 271829
+    },
+    "2": {
+      "changed": true,
+      "multiset_preserved": true,
+      "seed": 271830
+    },
+    "3": {
+      "changed": true,
+      "multiset_preserved": true,
+      "seed": 271831
+    },
+    "4": {
+      "changed": true,
+      "multiset_preserved": true,
+      "seed": 271832
+    },
+    "5": {
+      "changed": true,
+      "multiset_preserved": true,
+      "seed": 271833
+    }
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "all_ok": true
+}

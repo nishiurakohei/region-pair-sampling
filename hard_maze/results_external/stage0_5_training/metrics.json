@@ -1,0 +1,246 @@
+{
+  "condition": "resource_bounded_not_official_full",
+  "scratch_summary": [
+    {
+      "axis": "deadend_start",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": false,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "deadend_start",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0033333333333333335,
+      "accuracy_std": 0.004714045207910317,
+      "model_seeds": 3
+    },
+    {
+      "axis": "id",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0033333333333333335,
+      "accuracy_std": 0.004714045207910317,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.016666666666666666,
+      "accuracy_std": 0.023570226039551587,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 0.049999999999999996,
+      "accuracy_std": 0.07071067811865475,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 0.11666666666666665,
+      "accuracy_std": 0.1649915822768611,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 19,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 19,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 19,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 29,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 29,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 29,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 49,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 49,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 49,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "model_seeds": 3
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0033333333333333335,
+      "accuracy_std": 0.004714045207910317,
+      "model_seeds": 3
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.005,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.006666666666666667,
+      "accuracy_std": 0.009428090415820633,
+      "model_seeds": 3
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.01,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.006666666666666667,
+      "accuracy_std": 0.009428090415820633,
+      "model_seeds": 3
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.02,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.006666666666666667,
+      "accuracy_std": 0.004714045207910317,
+      "model_seeds": 3
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.03,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.01,
+      "accuracy_std": 0.008164965809277261,
+      "model_seeds": 3
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.04,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.006666666666666667,
+      "accuracy_std": 0.009428090415820633,
+      "model_seeds": 3
+    }
+  ],
+  "training_best": [
+    {
+      "model_seed": 101,
+      "best_epoch": 6,
+      "best_validation_exact_accuracy": 0.001,
+      "validation_loss_at_best": 0.6426918546715561,
+      "checkpoint": "checkpoints/seed_101/best_torch.pt"
+    },
+    {
+      "model_seed": 102,
+      "best_epoch": 9,
+      "best_validation_exact_accuracy": 0.005,
+      "validation_loss_at_best": 0.433419772401148,
+      "checkpoint": "checkpoints/seed_102/best_torch.pt"
+    },
+    {
+      "model_seed": 103,
+      "best_epoch": 1,
+      "best_validation_exact_accuracy": 0.0,
+      "validation_loss_at_best": 0.6789454320790816,
+      "checkpoint": "checkpoints/seed_103/best_torch.pt"
+    }
+  ],
+  "criteria": {
+    "A_id_at_least_0_95": false,
+    "B_percolation_drop_at_least_0_10": false,
+    "C_deadend_drop_at_least_0_10": false,
+    "D_size_iteration_recovery_at_least_0_10": false
+  },
+  "gate0_5_pass": false,
+  "stage2_authorized": false
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "seed": 42,
+    "maze_size": 99,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 14.576945469379424,
+    "dataset_sha256": "5a7d4c03041ef620e82eb4093e4d8d5828e72f2a3239d487a046decefeae1575"
+  },
+  {
+    "seed": 43,
+    "maze_size": 99,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 14.576945469379424,
+    "dataset_sha256": "e6ca476a2d4d2e6d753013200503ae7a07ea69dbdad97cb31c822a7b5debb9be"
+  },
+  {
+    "seed": 44,
+    "maze_size": 99,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 14.576945469379424,
+    "dataset_sha256": "1a3983efa13a0ea43d3c39f0c29de16f7832e7b6f1a311385f0b095fee80d658"
+  },
+  {
+    "seed": 45,
+    "maze_size": 99,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 14.576945469379424,
+    "dataset_sha256": "01e9c875aba9f8041a370e5e3a75413074bdec7a15e77e0d1ca9e852e9bbe5f0"
+  },
+  {
+    "seed": 46,
+    "maze_size": 99,
+    "iterations": 30,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 14.576945469379424,
+    "dataset_sha256": "8408542ae2f4e0d4055e9a09bf4d681643922131cb92abcc9dbe698a5335c531"
+  },
+  {
+    "seed": 42,
+    "maze_size": 99,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 48.58981823126475,
+    "dataset_sha256": "5a7d4c03041ef620e82eb4093e4d8d5828e72f2a3239d487a046decefeae1575"
+  },
+  {
+    "seed": 43,
+    "maze_size": 99,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 48.58981823126475,
+    "dataset_sha256": "e6ca476a2d4d2e6d753013200503ae7a07ea69dbdad97cb31c822a7b5debb9be"
+  },
+  {
+    "seed": 44,
+    "maze_size": 99,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 48.58981823126475,
+    "dataset_sha256": "1a3983efa13a0ea43d3c39f0c29de16f7832e7b6f1a311385f0b095fee80d658"
+  },
+  {
+    "seed": 45,
+    "maze_size": 99,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 48.58981823126475,
+    "dataset_sha256": "01e9c875aba9f8041a370e5e3a75413074bdec7a15e77e0d1ca9e852e9bbe5f0"
+  },
+  {
+    "seed": 46,
+    "maze_size": 99,
+    "iterations": 100,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 48.58981823126475,
+    "dataset_sha256": "8408542ae2f4e0d4055e9a09bf4d681643922131cb92abcc9dbe698a5335c531"
+  },
+  {
+    "seed": 42,
+    "maze_size": 99,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 145.76945469379424,
+    "dataset_sha256": "5a7d4c03041ef620e82eb4093e4d8d5828e72f2a3239d487a046decefeae1575"
+  },
+  {
+    "seed": 43,
+    "maze_size": 99,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 145.76945469379424,
+    "dataset_sha256": "e6ca476a2d4d2e6d753013200503ae7a07ea69dbdad97cb31c822a7b5debb9be"
+  },
+  {
+    "seed": 44,
+    "maze_size": 99,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 145.76945469379424,
+    "dataset_sha256": "1a3983efa13a0ea43d3c39f0c29de16f7832e7b6f1a311385f0b095fee80d658"
+  },
+  {
+    "seed": 45,
+    "maze_size": 99,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 145.76945469379424,
+    "dataset_sha256": "01e9c875aba9f8041a370e5e3a75413074bdec7a15e77e0d1ca9e852e9bbe5f0"
+  },
+  {
+    "seed": 46,
+    "maze_size": 99,
+    "iterations": 300,
+    "num_mazes": 1,
+    "accuracy": 0.0,
+    "seconds_batch": 145.76945469379424,
+    "dataset_sha256": "8408542ae2f4e0d4055e9a09bf4d681643922131cb92abcc9dbe698a5335c531"
+  },
+  {
+    "seed": 42,
+    "maze_size": 99,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 485.8981823126475,
+    "dataset_sha256": "5a7d4c03041ef620e82eb4093e4d8d5828e72f2a3239d487a046decefeae1575"
+  },
+  {
+    "seed": 43,
+    "maze_size": 99,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 485.8981823126475,
+    "dataset_sha256": "e6ca476a2d4d2e6d753013200503ae7a07ea69dbdad97cb31c822a7b5debb9be"
+  },
+  {
+    "seed": 44,
+    "maze_size": 99,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 485.8981823126475,
+    "dataset_sha256": "1a3983efa13a0ea43d3c39f0c29de16f7832e7b6f1a311385f0b095fee80d658"
+  },
+  {
+    "seed": 45,
+    "maze_size": 99,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 485.8981823126475,
+    "dataset_sha256": "01e9c875aba9f8041a370e5e3a75413074bdec7a15e77e0d1ca9e852e9bbe5f0"
+  },
+  {
+    "seed": 46,
+    "maze_size": 99,
+    "iterations": 1000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 485.8981823126475,
+    "dataset_sha256": "8408542ae2f4e0d4055e9a09bf4d681643922131cb92abcc9dbe698a5335c531"
+  },
+  {
+    "seed": 42,
+    "maze_size": 99,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1457.6945469379425,
+    "dataset_sha256": "5a7d4c03041ef620e82eb4093e4d8d5828e72f2a3239d487a046decefeae1575"
+  },
+  {
+    "seed": 43,
+    "maze_size": 99,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1457.6945469379425,
+    "dataset_sha256": "e6ca476a2d4d2e6d753013200503ae7a07ea69dbdad97cb31c822a7b5debb9be"
+  },
+  {
+    "seed": 44,
+    "maze_size": 99,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1457.6945469379425,
+    "dataset_sha256": "1a3983efa13a0ea43d3c39f0c29de16f7832e7b6f1a311385f0b095fee80d658"
+  },
+  {
+    "seed": 45,
+    "maze_size": 99,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1457.6945469379425,
+    "dataset_sha256": "01e9c875aba9f8041a370e5e3a75413074bdec7a15e77e0d1ca9e852e9bbe5f0"
+  },
+  {
+    "seed": 46,
+    "maze_size": 99,
+    "iterations": 3000,
+    "num_mazes": 1,
+    "accuracy": 1.0,
+    "seconds_batch": 1457.6945469379425,
+    "dataset_sha256": "8408542ae2f4e0d4055e9a09bf4d681643922131cb92abcc9dbe698a5335c531"
+  }
+]

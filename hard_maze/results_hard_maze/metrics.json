@@ -1,0 +1,814 @@
+{
+  "meta": {
+    "levels": [
+      "H0",
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "models": [
+      "cnn",
+      "resnet"
+    ],
+    "seeds": [
+      1,
+      2,
+      3
+    ],
+    "bayes_accuracy": 1.0
+  },
+  "levels": {
+    "H0": {
+      "cnn": {
+        "per_seed": [
+          {
+            "accuracy": 0.841,
+            "auroc": 0.9141935399919322,
+            "bce": 0.38367924241511203,
+            "brier": 0.11804625017459616,
+            "ece": 0.059661661581065756,
+            "confusion_matrix": [
+              [
+                722,
+                247
+              ],
+              [
+                71,
+                960
+              ]
+            ]
+          },
+          {
+            "accuracy": 0.825,
+            "auroc": 0.8998237306051116,
+            "bce": 0.3911889627237558,
+            "brier": 0.12612081075634832,
+            "ece": 0.024687231488918885,
+            "confusion_matrix": [
+              [
+                756,
+                213
+              ],
+              [
+                137,
+                894
+              ]
+            ]
+          },
+          {
+            "accuracy": 0.8225,
+            "auroc": 0.9019958179810799,
+            "bce": 0.3858153010507843,
+            "brier": 0.12347525254793945,
+            "ece": 0.03811019158228193,
+            "confusion_matrix": [
+              [
+                759,
+                210
+              ],
+              [
+                145,
+                886
+              ]
+            ]
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.8295,
+            "std": 0.00819552723542949
+          },
+          "auroc": {
+            "mean": 0.9053376961927079,
+            "std": 0.006324500925733466
+          },
+          "bce": {
+            "mean": 0.38689450206321735,
+            "std": 0.003159375560396031
+          },
+          "brier": {
+            "mean": 0.12254743782629464,
+            "std": 0.0033610774329443874
+          },
+          "ece": {
+            "mean": 0.040819694884088854,
+            "std": 0.014406219633072703
+          }
+        }
+      },
+      "resnet": {
+        "per_seed": [
+          {
+            "accuracy": 0.7955,
+            "auroc": 0.8862797148059285,
+            "bce": 0.4317263887069743,
+            "brier": 0.14125797328332446,
+            "ece": 0.06765356591019461,
+            "confusion_matrix": [
+              [
+                798,
+                171
+              ],
+              [
+                238,
+                793
+              ]
+            ]
+          },
+          {
+            "accuracy": 0.8315,
+            "auroc": 0.9093088458008146,
+            "bce": 0.3893530122397031,
+            "brier": 0.12050830306917452,
+            "ece": 0.059329003717790124,
+            "confusion_matrix": [
+              [
+                789,
+                180
+              ],
+              [
+                157,
+                874
+              ]
+            ]
+          },
+          {
+            "accuracy": 0.835,
+            "auroc": 0.9307864858128662,
+            "bce": 0.3616753606786991,
+            "brier": 0.11622100562630427,
+            "ece": 0.09464444139526187,
+            "confusion_matrix": [
+              [
+                854,
+                115
+              ],
+              [
+                215,
+                816
+              ]
+            ]
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.8206666666666665,
+            "std": 0.017852793121027933
+          },
+          "auroc": {
+            "mean": 0.9087916821398698,
+            "std": 0.01817349278583414
+          },
+          "bce": {
+            "mean": 0.3942515872084588,
+            "std": 0.02880721737687668
+          },
+          "brier": {
+            "mean": 0.12599576065960108,
+            "std": 0.010933025823004237
+          },
+          "ece": {
+            "mean": 0.07387567034108221,
+            "std": 0.015073839861373546
+          }
+        }
+      }
+    },
+    "H1": {
+      "cnn": {
+        "per_seed": [
+          {
+            "accuracy": 0.848,
+            "auroc": 0.91946,
+            "bce": 0.3458549111911642,
+            "brier": 0.1100301047278612,
+            "ece": 0.04214502497071044,
+            "confusion_matrix": [
+              [
+                832,
+                168
+              ],
+              [
+                136,
+                864
+              ]
+            ],
+            "pair_accuracy": 0.696,
+            "pair_probability_gap_mean": 0.5788067954544421,
+            "pair_probability_gap_median": 0.6735434812726453,
+            "pair_ranking_accuracy": 0.988
+          },
+          {
+            "accuracy": 0.8415,
+            "auroc": 0.910606,
+            "bce": 0.3596803861130992,
+            "brier": 0.11499145199150358,
+            "ece": 0.03016263536693442,
+            "confusion_matrix": [
+              [
+                763,
+                237
+              ],
+              [
+                80,
+                920
+              ]
+            ],
+            "pair_accuracy": 0.684,
+            "pair_probability_gap_mean": 0.5474670090721192,
+            "pair_probability_gap_median": 0.6549234688282013,
+            "pair_ranking_accuracy": 0.983
+          },
+          {
+            "accuracy": 0.8345,
+            "auroc": 0.904255,
+            "bce": 0.3609260259500425,
+            "brier": 0.11641475060601164,
+            "ece": 0.04502642678495614,
+            "confusion_matrix": [
+              [
+                783,
+                217
+              ],
+              [
+                114,
+                886
+              ]
+            ],
+            "pair_accuracy": 0.669,
+            "pair_probability_gap_mean": 0.5315356438303716,
+            "pair_probability_gap_median": 0.6041640918701887,
+            "pair_ranking_accuracy": 0.973
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.8413333333333334,
+            "std": 0.0055126118028470585
+          },
+          "auroc": {
+            "mean": 0.9114403333333333,
+            "std": 0.006235387736317794
+          },
+          "bce": {
+            "mean": 0.35548710775143527,
+            "std": 0.006829949369388665
+          },
+          "brier": {
+            "mean": 0.11381210244179214,
+            "std": 0.002736673743512888
+          },
+          "ece": {
+            "mean": 0.03911136237420033,
+            "std": 0.006436117120941392
+          },
+          "pair_accuracy": {
+            "mean": 0.6829999999999999,
+            "std": 0.011045361017187226
+          },
+          "pair_probability_gap_mean": {
+            "mean": 0.5526031494523109,
+            "std": 0.019637131451585032
+          },
+          "pair_probability_gap_median": {
+            "mean": 0.6442103473236784,
+            "std": 0.029319540102605395
+          },
+          "pair_ranking_accuracy": {
+            "mean": 0.9813333333333333,
+            "std": 0.006236095644623242
+          }
+        }
+      },
+      "resnet": {
+        "per_seed": [
+          {
+            "accuracy": 0.9215,
+            "auroc": 0.974303,
+            "bce": 0.2380387164844969,
+            "brier": 0.06282584528869546,
+            "ece": 0.04893744873962344,
+            "confusion_matrix": [
+              [
+                917,
+                83
+              ],
+              [
+                74,
+                926
+              ]
+            ],
+            "pair_accuracy": 0.843,
+            "pair_probability_gap_mean": 0.818916122754621,
+            "pair_probability_gap_median": 0.98636730608996,
+            "pair_ranking_accuracy": 0.996
+          },
+          {
+            "accuracy": 0.917,
+            "auroc": 0.969381,
+            "bce": 0.23491025315734892,
+            "brier": 0.06582838580274779,
+            "ece": 0.04301217023090453,
+            "confusion_matrix": [
+              [
+                870,
+                130
+              ],
+              [
+                36,
+                964
+              ]
+            ],
+            "pair_accuracy": 0.834,
+            "pair_probability_gap_mean": 0.8024226232519,
+            "pair_probability_gap_median": 0.9725408727535978,
+            "pair_ranking_accuracy": 0.99
+          },
+          {
+            "accuracy": 0.9215,
+            "auroc": 0.9718955,
+            "bce": 0.23119589911534466,
+            "brier": 0.061940381148665596,
+            "ece": 0.04034878585285898,
+            "confusion_matrix": [
+              [
+                904,
+                96
+              ],
+              [
+                61,
+                939
+              ]
+            ],
+            "pair_accuracy": 0.843,
+            "pair_probability_gap_mean": 0.8144634324250914,
+            "pair_probability_gap_median": 0.9807323819768499,
+            "pair_ranking_accuracy": 0.995
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.9199999999999999,
+            "std": 0.002121320343559618
+          },
+          "auroc": {
+            "mean": 0.9718598333333334,
+            "std": 0.0020095563496011232
+          },
+          "bce": {
+            "mean": 0.23471495625239683,
+            "std": 0.0027969796862217632
+          },
+          "brier": {
+            "mean": 0.06353153741336962,
+            "std": 0.0016638601861658
+          },
+          "ece": {
+            "mean": 0.04409946827446232,
+            "std": 0.0035896095722947126
+          },
+          "pair_accuracy": {
+            "mean": 0.84,
+            "std": 0.004242640687119289
+          },
+          "pair_probability_gap_mean": {
+            "mean": 0.8119340594772041,
+            "std": 0.006966930318473268
+          },
+          "pair_probability_gap_median": {
+            "mean": 0.9798801869401359,
+            "std": 0.005676691641362201
+          },
+          "pair_ranking_accuracy": {
+            "mean": 0.9936666666666666,
+            "std": 0.0026246692913372725
+          }
+        }
+      }
+    },
+    "H2": {
+      "cnn": {
+        "per_seed": [
+          {
+            "accuracy": 0.847,
+            "auroc": 0.921036,
+            "bce": 0.3505558903841693,
+            "brier": 0.11002152452885282,
+            "ece": 0.04776657761762178,
+            "confusion_matrix": [
+              [
+                764,
+                236
+              ],
+              [
+                70,
+                930
+              ]
+            ],
+            "pair_accuracy": 0.697,
+            "pair_probability_gap_mean": 0.5983749152619712,
+            "pair_probability_gap_median": 0.7464041197672486,
+            "pair_ranking_accuracy": 0.967
+          },
+          {
+            "accuracy": 0.828,
+            "auroc": 0.907587,
+            "bce": 0.36676901006727486,
+            "brier": 0.1188036765335503,
+            "ece": 0.041174667337312704,
+            "confusion_matrix": [
+              [
+                813,
+                187
+              ],
+              [
+                157,
+                843
+              ]
+            ],
+            "pair_accuracy": 0.663,
+            "pair_probability_gap_mean": 0.5284565605365497,
+            "pair_probability_gap_median": 0.5963734938995913,
+            "pair_ranking_accuracy": 0.942
+          },
+          {
+            "accuracy": 0.8335,
+            "auroc": 0.905146,
+            "bce": 0.3582928496559144,
+            "brier": 0.1149778543594629,
+            "ece": 0.03645454980213981,
+            "confusion_matrix": [
+              [
+                777,
+                223
+              ],
+              [
+                110,
+                890
+              ]
+            ],
+            "pair_accuracy": 0.673,
+            "pair_probability_gap_mean": 0.5386292890950135,
+            "pair_probability_gap_median": 0.6438810367835686,
+            "pair_ranking_accuracy": 0.953
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.8361666666666666,
+            "std": 0.007982620009885366
+          },
+          "auroc": {
+            "mean": 0.9112563333333332,
+            "std": 0.006986703101050015
+          },
+          "bce": {
+            "mean": 0.3585392500357862,
+            "std": 0.006621271143069989
+          },
+          "brier": {
+            "mean": 0.11460101847395533,
+            "std": 0.0035951868214653964
+          },
+          "ece": {
+            "mean": 0.0417985982523581,
+            "std": 0.004639142209835886
+          },
+          "pair_accuracy": {
+            "mean": 0.6776666666666666,
+            "std": 0.01426728970602176
+          },
+          "pair_probability_gap_mean": {
+            "mean": 0.5551535882978448,
+            "std": 0.03084297251115707
+          },
+          "pair_probability_gap_median": {
+            "mean": 0.6622195501501361,
+            "std": 0.06260736367197328
+          },
+          "pair_ranking_accuracy": {
+            "mean": 0.9539999999999998,
+            "std": 0.01023067283548188
+          }
+        }
+      },
+      "resnet": {
+        "per_seed": [
+          {
+            "accuracy": 0.905,
+            "auroc": 0.961799,
+            "bce": 0.2759205977517024,
+            "brier": 0.07531693594762319,
+            "ece": 0.05520609225645762,
+            "confusion_matrix": [
+              [
+                903,
+                97
+              ],
+              [
+                93,
+                907
+              ]
+            ],
+            "pair_accuracy": 0.812,
+            "pair_probability_gap_mean": 0.7773150857409087,
+            "pair_probability_gap_median": 0.9640538860112429,
+            "pair_ranking_accuracy": 0.98
+          },
+          {
+            "accuracy": 0.9205,
+            "auroc": 0.965553,
+            "bce": 0.24832120401734217,
+            "brier": 0.06419561017999065,
+            "ece": 0.04109327094208423,
+            "confusion_matrix": [
+              [
+                889,
+                111
+              ],
+              [
+                48,
+                952
+              ]
+            ],
+            "pair_accuracy": 0.844,
+            "pair_probability_gap_mean": 0.8149618378403451,
+            "pair_probability_gap_median": 0.9818179267458618,
+            "pair_ranking_accuracy": 0.975
+          },
+          {
+            "accuracy": 0.907,
+            "auroc": 0.96162,
+            "bce": 0.294752711485889,
+            "brier": 0.0754323185551953,
+            "ece": 0.06008920941357197,
+            "confusion_matrix": [
+              [
+                894,
+                106
+              ],
+              [
+                80,
+                920
+              ]
+            ],
+            "pair_accuracy": 0.816,
+            "pair_probability_gap_mean": 0.7954526575446534,
+            "pair_probability_gap_median": 0.9826881524895725,
+            "pair_ranking_accuracy": 0.97
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.9108333333333333,
+            "std": 0.006883958809354441
+          },
+          "auroc": {
+            "mean": 0.9629906666666667,
+            "std": 0.0018133163602146807
+          },
+          "bce": {
+            "mean": 0.27299817108497787,
+            "std": 0.019067890193852365
+          },
+          "brier": {
+            "mean": 0.07164828822760304,
+            "std": 0.0052700497054933215
+          },
+          "ece": {
+            "mean": 0.052129524204037936,
+            "std": 0.008054413814342794
+          },
+          "pair_accuracy": {
+            "mean": 0.824,
+            "std": 0.014236104336041729
+          },
+          "pair_probability_gap_mean": {
+            "mean": 0.7959098603753024,
+            "std": 0.01537262202164118
+          },
+          "pair_probability_gap_median": {
+            "mean": 0.9761866550822257,
+            "std": 0.008586516065265852
+          },
+          "pair_ranking_accuracy": {
+            "mean": 0.975,
+            "std": 0.004082482904638634
+          }
+        }
+      }
+    },
+    "H3": {
+      "cnn": {
+        "per_seed": [
+          {
+            "accuracy": 0.562,
+            "auroc": 0.584464,
+            "bce": 0.6839110841769699,
+            "brier": 0.24540507917040805,
+            "ece": 0.02326487237215045,
+            "confusion_matrix": [
+              [
+                689,
+                311
+              ],
+              [
+                565,
+                435
+              ]
+            ],
+            "pair_accuracy": 0.138,
+            "pair_probability_gap_mean": 0.021072130799293518,
+            "pair_probability_gap_median": 0.017863228917121887,
+            "pair_ranking_accuracy": 0.809
+          },
+          {
+            "accuracy": 0.5675,
+            "auroc": 0.583777,
+            "bce": 0.6826315419187086,
+            "brier": 0.24479812039978652,
+            "ece": 0.016871446192264564,
+            "confusion_matrix": [
+              [
+                484,
+                516
+              ],
+              [
+                349,
+                651
+              ]
+            ],
+            "pair_accuracy": 0.141,
+            "pair_probability_gap_mean": 0.02356601482629776,
+            "pair_probability_gap_median": 0.01978263258934021,
+            "pair_ranking_accuracy": 0.797
+          },
+          {
+            "accuracy": 0.5495,
+            "auroc": 0.5666235,
+            "bce": 0.6865414271261137,
+            "brier": 0.2467166676421309,
+            "ece": 0.012448758974671327,
+            "confusion_matrix": [
+              [
+                621,
+                379
+              ],
+              [
+                522,
+                478
+              ]
+            ],
+            "pair_accuracy": 0.112,
+            "pair_probability_gap_mean": 0.015308200806379318,
+            "pair_probability_gap_median": 0.01265600323677063,
+            "pair_ranking_accuracy": 0.776
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.5596666666666668,
+            "std": 0.007531415685130015
+          },
+          "auroc": {
+            "mean": 0.5782881666666667,
+            "std": 0.008252931947024799
+          },
+          "bce": {
+            "mean": 0.6843613510739307,
+            "std": 0.0016276477490835945
+          },
+          "brier": {
+            "mean": 0.2456399557374418,
+            "std": 0.0008006585337845309
+          },
+          "ece": {
+            "mean": 0.017528359179695446,
+            "std": 0.00444002464419387
+          },
+          "pair_accuracy": {
+            "mean": 0.13033333333333333,
+            "std": 0.013021349989749739
+          },
+          "pair_probability_gap_mean": {
+            "mean": 0.019982115477323533,
+            "std": 0.0034582243178146966
+          },
+          "pair_probability_gap_median": {
+            "mean": 0.016767288247744244,
+            "std": 0.0030108720713799314
+          },
+          "pair_ranking_accuracy": {
+            "mean": 0.794,
+            "std": 0.013638181696985868
+          }
+        }
+      },
+      "resnet": {
+        "per_seed": [
+          {
+            "accuracy": 0.55,
+            "auroc": 0.569226,
+            "bce": 0.6894173544451987,
+            "brier": 0.2480375038227822,
+            "ece": 0.038101876862347096,
+            "confusion_matrix": [
+              [
+                349,
+                651
+              ],
+              [
+                249,
+                751
+              ]
+            ],
+            "pair_accuracy": 0.115,
+            "pair_probability_gap_mean": 0.031516731455922126,
+            "pair_probability_gap_median": 0.02180689573287964,
+            "pair_ranking_accuracy": 0.7
+          },
+          {
+            "accuracy": 0.5095,
+            "auroc": 0.5164295,
+            "bce": 0.692876169510389,
+            "brier": 0.2498648713473125,
+            "ece": 0.006829145655035997,
+            "confusion_matrix": [
+              [
+                578,
+                422
+              ],
+              [
+                559,
+                441
+              ]
+            ],
+            "pair_accuracy": 0.058,
+            "pair_probability_gap_mean": 0.006727444738149643,
+            "pair_probability_gap_median": 0.00518430769443512,
+            "pair_ranking_accuracy": 0.571
+          },
+          {
+            "accuracy": 0.506,
+            "auroc": 0.5046325,
+            "bce": 0.6938466841468013,
+            "brier": 0.2503486043713305,
+            "ece": 0.010123025730252302,
+            "confusion_matrix": [
+              [
+                664,
+                336
+              ],
+              [
+                652,
+                348
+              ]
+            ],
+            "pair_accuracy": 0.059,
+            "pair_probability_gap_mean": 0.006312003225088119,
+            "pair_probability_gap_median": 0.004905670881271362,
+            "pair_ranking_accuracy": 0.524
+          }
+        ],
+        "aggregate": {
+          "accuracy": {
+            "mean": 0.5218333333333333,
+            "std": 0.01996803000353874
+          },
+          "auroc": {
+            "mean": 0.530096,
+            "std": 0.028085108477032206
+          },
+          "bce": {
+            "mean": 0.6920467360341296,
+            "std": 0.001901001546558982
+          },
+          "brier": {
+            "mean": 0.24941699318047506,
+            "std": 0.0009952361782084058
+          },
+          "ece": {
+            "mean": 0.018351349415878467,
+            "std": 0.014030322217676965
+          },
+          "pair_accuracy": {
+            "mean": 0.07733333333333334,
+            "std": 0.026637484032009398
+          },
+          "pair_probability_gap_mean": {
+            "mean": 0.01485205980638663,
+            "std": 0.01178492281979586
+          },
+          "pair_probability_gap_median": {
+            "mean": 0.010632291436195374,
+            "std": 0.007902457234262363
+          },
+          "pair_ranking_accuracy": {
+            "mean": 0.5983333333333333,
+            "std": 0.07440579427855212
+          }
+        }
+      }
+    }
+  }
+}

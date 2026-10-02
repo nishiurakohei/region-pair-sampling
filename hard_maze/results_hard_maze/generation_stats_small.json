@@ -1,0 +1,198 @@
+{
+  "config": {
+    "N": 15,
+    "p": 0.64,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      14,
+      14
+    ],
+    "sizes": {
+      "train": 8000,
+      "val": 1000,
+      "test": 2000
+    },
+    "split_seeds": {
+      "train": 21001,
+      "val": 22001,
+      "test": 23001
+    },
+    "levels": [
+      "H0",
+      "H1",
+      "H2",
+      "H3"
+    ],
+    "h3_min_path": 34,
+    "h3_interior_radius": 3,
+    "training": {
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "batch_size": 64,
+      "max_epochs": 40,
+      "patience": 8,
+      "learning_rate": 0.0007,
+      "weight_decay": 0.0005
+    },
+    "phase1_source": "/Users/nishiurakohei/Library/Application Support/Claude-3p/local-agent-mode-sessions/c4020c52-61d0-4248-b9f1-8242a1a346c1/00000000-0000-4000-8000-000000000001/f9975124/outputs/phase1"
+  },
+  "H0": {
+    "train": {
+      "samples": 8000,
+      "positive_rate": 0.4905
+    },
+    "val": {
+      "samples": 1000,
+      "positive_rate": 0.499
+    },
+    "test": {
+      "samples": 2000,
+      "positive_rate": 0.5155
+    }
+  },
+  "H1": {
+    "train": {
+      "raw_generated": 250,
+      "candidate_near_miss": 100,
+      "valid_pivotal_edges": 358,
+      "valid_control_edges": 0,
+      "accepted_pairs": 100,
+      "accepted_samples": 200,
+      "acceptance_rate": 0.4,
+      "generation_seconds": 0.16766810417175293,
+      "reject_reasons": {
+        "already_reachable": 121,
+        "no_pivot": 29
+      }
+    },
+    "val": {
+      "raw_generated": 61,
+      "candidate_near_miss": 25,
+      "valid_pivotal_edges": 91,
+      "valid_control_edges": 0,
+      "accepted_pairs": 25,
+      "accepted_samples": 50,
+      "acceptance_rate": 0.4098360655737705,
+      "generation_seconds": 0.0431060791015625,
+      "reject_reasons": {
+        "already_reachable": 27,
+        "no_pivot": 9
+      }
+    },
+    "test": {
+      "raw_generated": 130,
+      "candidate_near_miss": 50,
+      "valid_pivotal_edges": 181,
+      "valid_control_edges": 0,
+      "accepted_pairs": 50,
+      "accepted_samples": 100,
+      "acceptance_rate": 0.38461538461538464,
+      "generation_seconds": 0.08524322509765625,
+      "reject_reasons": {
+        "already_reachable": 69,
+        "no_pivot": 11
+      }
+    }
+  },
+  "H2": {
+    "train": {
+      "raw_generated": 251,
+      "candidate_near_miss": 100,
+      "valid_pivotal_edges": 339,
+      "valid_control_edges": 100,
+      "accepted_pairs": 100,
+      "accepted_samples": 200,
+      "acceptance_rate": 0.398406374501992,
+      "generation_seconds": 0.1771547794342041,
+      "reject_reasons": {
+        "already_reachable": 117,
+        "no_pivot": 34
+      }
+    },
+    "val": {
+      "raw_generated": 63,
+      "candidate_near_miss": 25,
+      "valid_pivotal_edges": 72,
+      "valid_control_edges": 25,
+      "accepted_pairs": 25,
+      "accepted_samples": 50,
+      "acceptance_rate": 0.3968253968253968,
+      "generation_seconds": 0.04429316520690918,
+      "reject_reasons": {
+        "already_reachable": 31,
+        "no_pivot": 7
+      }
+    },
+    "test": {
+      "raw_generated": 144,
+      "candidate_near_miss": 50,
+      "valid_pivotal_edges": 160,
+      "valid_control_edges": 50,
+      "accepted_pairs": 50,
+      "accepted_samples": 100,
+      "acceptance_rate": 0.3472222222222222,
+      "generation_seconds": 0.09595704078674316,
+      "reject_reasons": {
+        "already_reachable": 79,
+        "no_pivot": 15
+      }
+    }
+  },
+  "H3": {
+    "train": {
+      "raw_generated": 4995,
+      "candidate_near_miss": 1960,
+      "valid_pivotal_edges": 6298,
+      "valid_control_edges": 100,
+      "accepted_pairs": 100,
+      "accepted_samples": 200,
+      "acceptance_rate": 0.02002002002002002,
+      "generation_seconds": 1.738448143005371,
+      "reject_reasons": {
+        "pivot_not_interior": 1700,
+        "path_too_short": 159,
+        "already_reachable": 2458,
+        "no_pivot": 577,
+        "no_control": 1
+      }
+    },
+    "val": {
+      "raw_generated": 976,
+      "candidate_near_miss": 365,
+      "valid_pivotal_edges": 1316,
+      "valid_control_edges": 25,
+      "accepted_pairs": 25,
+      "accepted_samples": 50,
+      "acceptance_rate": 0.025614754098360656,
+      "generation_seconds": 0.3477511405944824,
+      "reject_reasons": {
+        "already_reachable": 493,
+        "path_too_short": 34,
+        "pivot_not_interior": 306,
+        "no_pivot": 118
+      }
+    },
+    "test": {
+      "raw_generated": 1602,
+      "candidate_near_miss": 610,
+      "valid_pivotal_edges": 2189,
+      "valid_control_edges": 50,
+      "accepted_pairs": 50,
+      "accepted_samples": 100,
+      "acceptance_rate": 0.031210986267166042,
+      "generation_seconds": 0.5853211879730225,
+      "reject_reasons": {
+        "pivot_not_interior": 510,
+        "already_reachable": 783,
+        "path_too_short": 50,
+        "no_pivot": 209
+      }
+    }
+  }
+}

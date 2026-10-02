@@ -1,0 +1,93 @@
+{
+  "scope": "seed 1 frozen encoders; train-split linear probes evaluated on test",
+  "models": {
+    "cnn": {
+      "main": {
+        "beta1": {
+          "r2": 0.6512482017103629,
+          "rmse": 4.576793011671873
+        },
+        "reachability": {
+          "accuracy": 0.569,
+          "balanced_accuracy": 0.569
+        },
+        "random_pair_connectivity": {
+          "accuracy": 0.658,
+          "balanced_accuracy": 0.6579999999999999
+        }
+      },
+      "beta1": {
+        "beta1": {
+          "r2": 0.9448048735888425,
+          "rmse": 1.8207629602620015
+        },
+        "reachability": {
+          "accuracy": 0.56,
+          "balanced_accuracy": 0.56
+        },
+        "random_pair_connectivity": {
+          "accuracy": 0.667,
+          "balanced_accuracy": 0.667
+        }
+      },
+      "random_pair": {
+        "beta1": {
+          "r2": 0.7037152935275941,
+          "rmse": 4.218496189891012
+        },
+        "reachability": {
+          "accuracy": 0.602,
+          "balanced_accuracy": 0.602
+        },
+        "random_pair_connectivity": {
+          "accuracy": 0.747875,
+          "balanced_accuracy": 0.747875
+        }
+      }
+    },
+    "resnet": {
+      "main": {
+        "beta1": {
+          "r2": 0.275487813350466,
+          "rmse": 6.596687199243184
+        },
+        "reachability": {
+          "accuracy": 0.5515,
+          "balanced_accuracy": 0.5515
+        },
+        "random_pair_connectivity": {
+          "accuracy": 0.61425,
+          "balanced_accuracy": 0.61425
+        }
+      },
+      "beta1": {
+        "beta1": {
+          "r2": 0.7509139286637211,
+          "rmse": 3.8679225135164894
+        },
+        "reachability": {
+          "accuracy": 0.5595,
+          "balanced_accuracy": 0.5595
+        },
+        "random_pair_connectivity": {
+          "accuracy": 0.630125,
+          "balanced_accuracy": 0.630125
+        }
+      },
+      "random_pair": {
+        "beta1": {
+          "r2": 0.3569120135234992,
+          "rmse": 6.214958630062457
+        },
+        "reachability": {
+          "accuracy": 0.7155,
+          "balanced_accuracy": 0.7155
+        },
+        "random_pair_connectivity": {
+          "accuracy": 0.683125,
+          "balanced_accuracy": 0.683125
+        }
+      }
+    }
+  }
+}

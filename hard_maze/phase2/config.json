@@ -1,0 +1,13 @@
+{
+  "aux_only_seeds": [1, 2, 3],
+  "multitask_seeds": [1, 2, 3, 4, 5],
+  "models": ["cnn", "resnet"],
+  "lambdas": [0.0, 0.01, 0.03, 0.1, 0.3, 1.0],
+  "conditions": ["main", "true", "shuffled"],
+  "batch_size": 64,
+  "max_epochs": 40,
+  "patience": 8,
+  "learning_rate": 0.0007,
+  "weight_decay": 0.0005,
+  "shuffle_seed": 271828
+}

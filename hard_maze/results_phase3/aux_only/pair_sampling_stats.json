@@ -1,0 +1,141 @@
+{
+  "config": {
+    "aux_only_seeds": [
+      1,
+      2,
+      3
+    ],
+    "multitask_seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "models": [
+      "cnn",
+      "resnet"
+    ],
+    "lambdas": [
+      0.0,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ],
+    "k_values": [
+      1,
+      4,
+      8,
+      16,
+      32
+    ],
+    "primary_k": 16,
+    "k_pilot_lambda": 0.03,
+    "d_min": 5,
+    "batch_size": 64,
+    "max_epochs": 40,
+    "patience": 8,
+    "learning_rate": 0.0007,
+    "weight_decay": 0.0005,
+    "pair_seed": 314159,
+    "shuffle_seed": 271828
+  },
+  "splits": {
+    "val": {
+      "samples": 1000,
+      "pairs_per_sample": 32,
+      "positive_rate": 0.5,
+      "duplicates": 0,
+      "grid_connected": {
+        "min": 5,
+        "max": 27,
+        "mean": 10.7546875,
+        "median": 10.0,
+        "quantiles": {
+          "0.1": 6.0,
+          "0.25": 7.0,
+          "0.5": 10.0,
+          "0.75": 13.0,
+          "0.9": 17.0
+        }
+      },
+      "grid_disconnected": {
+        "min": 5,
+        "max": 28,
+        "mean": 11.980875,
+        "median": 12.0,
+        "quantiles": {
+          "0.1": 6.0,
+          "0.25": 8.0,
+          "0.5": 12.0,
+          "0.75": 15.0,
+          "0.9": 18.0
+        }
+      },
+      "graph_connected": {
+        "min": 5,
+        "max": 54,
+        "mean": 15.8990625,
+        "median": 15.0,
+        "quantiles": {
+          "0.1": 7.0,
+          "0.25": 10.0,
+          "0.5": 15.0,
+          "0.75": 20.0,
+          "0.9": 26.0
+        }
+      },
+      "near_neighbor_rate_grid_le_6": 0.14265625,
+      "start_or_goal_violations": 0
+    },
+    "test": {
+      "samples": 2000,
+      "pairs_per_sample": 32,
+      "positive_rate": 0.5,
+      "duplicates": 0,
+      "grid_connected": {
+        "min": 5,
+        "max": 28,
+        "mean": 10.74059375,
+        "median": 10.0,
+        "quantiles": {
+          "0.1": 6.0,
+          "0.25": 7.0,
+          "0.5": 10.0,
+          "0.75": 13.0,
+          "0.9": 17.0
+        }
+      },
+      "grid_disconnected": {
+        "min": 5,
+        "max": 28,
+        "mean": 12.02378125,
+        "median": 12.0,
+        "quantiles": {
+          "0.1": 6.0,
+          "0.25": 8.0,
+          "0.5": 12.0,
+          "0.75": 15.0,
+          "0.9": 18.0
+        }
+      },
+      "graph_connected": {
+        "min": 5,
+        "max": 55,
+        "mean": 15.70715625,
+        "median": 15.0,
+        "quantiles": {
+          "0.1": 7.0,
+          "0.25": 10.0,
+          "0.5": 15.0,
+          "0.75": 20.0,
+          "0.9": 26.0
+        }
+      },
+      "near_neighbor_rate_grid_le_6": 0.143828125,
+      "start_or_goal_violations": 0
+    }
+  }
+}

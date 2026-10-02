@@ -1,0 +1,216 @@
+{
+  "upstream_commit": "6d09263fdb8d61274e4b0e046e07ed929b35af12",
+  "device": "cpu",
+  "summary": [
+    {
+      "axis": "id",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.005,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.9139999999999999,
+      "accuracy_std": 0.026532998322843178,
+      "seeds": 5
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.01,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.8540000000000001,
+      "accuracy_std": 0.01019803902718558,
+      "seeds": 5
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.02,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.7340000000000001,
+      "accuracy_std": 0.04223742416388576,
+      "seeds": 5
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.03,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.606,
+      "accuracy_std": 0.055713553108736456,
+      "seeds": 5
+    },
+    {
+      "axis": "percolation",
+      "maze_size": 9,
+      "percolation": 0.04,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.542,
+      "accuracy_std": 0.03544009029333869,
+      "seeds": 5
+    },
+    {
+      "axis": "deadend_start",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "deadend_start",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": false,
+      "iterations": 30,
+      "accuracy_mean": 0.7699999999999999,
+      "accuracy_std": 0.040496913462633184,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 9,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 19,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.27,
+      "accuracy_std": 0.0678232998312527,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 19,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 19,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 29,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.04,
+      "accuracy_std": 0.03741657386773942,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 29,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 0.7799999999999999,
+      "accuracy_std": 0.08124038404635961,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 29,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 1.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 49,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "accuracy_std": 0.0,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 49,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 100,
+      "accuracy_mean": 0.06,
+      "accuracy_std": 0.07348469228349534,
+      "seeds": 5
+    },
+    {
+      "axis": "maze_size",
+      "maze_size": 49,
+      "percolation": 0.0,
+      "deadend_start": true,
+      "iterations": 300,
+      "accuracy_mean": 0.8,
+      "accuracy_std": 0.1140175425099138,
+      "seeds": 5
+    }
+  ]
+}

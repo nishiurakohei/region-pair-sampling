@@ -1,0 +1,7 @@
+{
+  "device": "mps",
+  "torch": "2.13.0",
+  "numpy": "1.26.4",
+  "dataset_seed": 42,
+  "fixed_dataset_across_models": true
+}

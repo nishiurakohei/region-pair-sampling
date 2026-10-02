@@ -1,0 +1,126 @@
+{
+  "H0": {
+    "scalar_logistic": {
+      "accuracy": 0.7655,
+      "bce": 0.49058784423283075,
+      "confusion_matrix": [
+        [
+          743,
+          226
+        ],
+        [
+          243,
+          788
+        ]
+      ]
+    },
+    "local_patch_logistic_radius4": {
+      "accuracy": 0.7465,
+      "bce": 0.49570238712284675,
+      "confusion_matrix": [
+        [
+          728,
+          241
+        ],
+        [
+          266,
+          765
+        ]
+      ]
+    },
+    "notes": "Component sizes and any direct reachability/path feature are excluded from classifiers."
+  },
+  "H1": {
+    "scalar_logistic": {
+      "accuracy": 0.6515,
+      "bce": 0.6168613051670566,
+      "confusion_matrix": [
+        [
+          659,
+          341
+        ],
+        [
+          356,
+          644
+        ]
+      ]
+    },
+    "local_patch_logistic_radius4": {
+      "accuracy": 0.631,
+      "bce": 0.6348908108003338,
+      "confusion_matrix": [
+        [
+          649,
+          351
+        ],
+        [
+          387,
+          613
+        ]
+      ]
+    },
+    "notes": "Component sizes and any direct reachability/path feature are excluded from classifiers."
+  },
+  "H2": {
+    "scalar_logistic": {
+      "accuracy": 0.6235,
+      "bce": 0.6390026835843274,
+      "confusion_matrix": [
+        [
+          632,
+          368
+        ],
+        [
+          385,
+          615
+        ]
+      ]
+    },
+    "local_patch_logistic_radius4": {
+      "accuracy": 0.6365,
+      "bce": 0.6366603812434203,
+      "confusion_matrix": [
+        [
+          654,
+          346
+        ],
+        [
+          381,
+          619
+        ]
+      ]
+    },
+    "notes": "Component sizes and any direct reachability/path feature are excluded from classifiers."
+  },
+  "H3": {
+    "scalar_logistic": {
+      "accuracy": 0.5225,
+      "bce": 0.6916880471537721,
+      "confusion_matrix": [
+        [
+          543,
+          457
+        ],
+        [
+          498,
+          502
+        ]
+      ]
+    },
+    "local_patch_logistic_radius4": {
+      "accuracy": 0.5275,
+      "bce": 0.6917494594003728,
+      "confusion_matrix": [
+        [
+          520,
+          480
+        ],
+        [
+          465,
+          535
+        ]
+      ]
+    },
+    "notes": "Component sizes and any direct reachability/path feature are excluded from classifiers."
+  }
+}

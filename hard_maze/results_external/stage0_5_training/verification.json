@@ -1,0 +1,16 @@
+{
+  "checks": {
+    "three_model_seeds": true,
+    "independent_initializations": true,
+    "no_pretrained_loaded": true,
+    "pretrained_hash_matches_stage0": true,
+    "fixed_dataset_across_scratch_models": true,
+    "same_datasets_pretrained_vs_scratch": true,
+    "all_training_epochs_present": true,
+    "all_stage0_screening_rows_present": true,
+    "resource_deviations_explicit": true
+  },
+  "all_ok": true,
+  "gate0_5_pass": false,
+  "note": "all_ok covers procedural integrity; gate0_5_pass covers scientific success."
+}

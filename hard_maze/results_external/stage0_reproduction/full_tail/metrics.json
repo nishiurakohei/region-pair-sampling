@@ -1,0 +1,215 @@
+{
+  "device": "cpu",
+  "summary": [
+    {
+      "maze_size": 39,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 39,
+      "iterations": 100,
+      "accuracy_mean": 0.4,
+      "correct": 2,
+      "n": 5
+    },
+    {
+      "maze_size": 39,
+      "iterations": 300,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 39,
+      "iterations": 1000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 39,
+      "iterations": 3000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 59,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 59,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 59,
+      "iterations": 300,
+      "accuracy_mean": 0.4,
+      "correct": 2,
+      "n": 5
+    },
+    {
+      "maze_size": 59,
+      "iterations": 1000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 59,
+      "iterations": 3000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 69,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 69,
+      "iterations": 100,
+      "accuracy_mean": 0.2,
+      "correct": 1,
+      "n": 5
+    },
+    {
+      "maze_size": 69,
+      "iterations": 300,
+      "accuracy_mean": 0.8,
+      "correct": 4,
+      "n": 5
+    },
+    {
+      "maze_size": 69,
+      "iterations": 1000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 69,
+      "iterations": 3000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 79,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 79,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 79,
+      "iterations": 300,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 79,
+      "iterations": 1000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 79,
+      "iterations": 3000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 89,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 89,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 89,
+      "iterations": 300,
+      "accuracy_mean": 0.4,
+      "correct": 2,
+      "n": 5
+    },
+    {
+      "maze_size": 89,
+      "iterations": 1000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 89,
+      "iterations": 3000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 99,
+      "iterations": 30,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 99,
+      "iterations": 100,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 99,
+      "iterations": 300,
+      "accuracy_mean": 0.0,
+      "correct": 0,
+      "n": 5
+    },
+    {
+      "maze_size": 99,
+      "iterations": 1000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    },
+    {
+      "maze_size": 99,
+      "iterations": 3000,
+      "accuracy_mean": 1.0,
+      "correct": 5,
+      "n": 5
+    }
+  ]
+}

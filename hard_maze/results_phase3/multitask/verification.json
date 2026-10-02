@@ -1,0 +1,55 @@
+{
+  "h3_sha256": {
+    "train": "498d210b56dc51e2d1a659d5232cf6e60ae19a8d57ed94c98e5ed475fcd4f89e",
+    "val": "d8b381b33245a1a4a3c9d309d90c4f8fae630e64a8a390e05939b311de70c567",
+    "test": "953b280477fea63b077536d4ac8b9cf50d57b072a6c130a6ad3027a8f4937ec6"
+  },
+  "h3_unchanged_from_phase2": true,
+  "bayes_accuracy": 1.0,
+  "class_balance": 0.5,
+  "pair_match_rates": {
+    "edge_count": 1.0,
+    "component_count": 1.0,
+    "beta1": 1.0
+  },
+  "no_split_leakage": true,
+  "aux_label_exact_rate": 1.0,
+  "aux_positive_rate": 0.5,
+  "start_goal_violations": 0,
+  "distinct_node_violations": 0,
+  "distance_violations": 0,
+  "fixed_test_seed": 314161,
+  "dynamic_seed_reproducible": true,
+  "shuffled_labels_train_only": true,
+  "main_only_reuses_phase2_predictions": true,
+  "shuffle_checks": {
+    "1": {
+      "changed": true,
+      "multiset_preserved": true
+    },
+    "2": {
+      "changed": true,
+      "multiset_preserved": true
+    },
+    "3": {
+      "changed": true,
+      "multiset_preserved": true
+    },
+    "4": {
+      "changed": true,
+      "multiset_preserved": true
+    },
+    "5": {
+      "changed": true,
+      "multiset_preserved": true
+    }
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "all_ok": true
+}

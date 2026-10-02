@@ -1,0 +1,50 @@
+{
+  "pairs_per_maze": 16,
+  "minimum_manhattan_distance": 3,
+  "normalization_denominator": 9,
+  "pair_seeds": {
+    "train": 3101,
+    "val": 3102,
+    "test": 3103
+  },
+  "data_split_seed": 42,
+  "train_mazes": 40000,
+  "val_mazes": 10000,
+  "test_mazes": 10000,
+  "distance_bins": [
+    [
+      1,
+      5
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      16,
+      null
+    ]
+  ],
+  "training_iterations": 30,
+  "test_iterations": [
+    10,
+    30,
+    100
+  ],
+  "model_seeds": [
+    401
+  ],
+  "train_subset_mazes": 5000,
+  "val_subset_mazes": 1000,
+  "epochs": 10,
+  "batch_mazes": 25,
+  "base_lr": 0.001,
+  "recurrent_lr_divisor": 30,
+  "weight_decay": 0.0002,
+  "warmup_epochs": 2,
+  "pair_head_hidden": 128
+}
