@@ -1,5 +1,17 @@
 # Region Pair Sampling for Biconnectivity Experiments
 
+## Current maze research handoff
+
+The repository is also the canonical source for the H3 and external DT-Net auxiliary-task research. Before continuing that work, read:
+
+- [`docs/RESEARCH_CONTEXT.md`](docs/RESEARCH_CONTEXT.md)
+- [`docs/EXPERIMENT_LOG.md`](docs/EXPERIMENT_LOG.md)
+- [`docs/DECISIONS.md`](docs/DECISIONS.md)
+- [`docs/NEXT_TASK.md`](docs/NEXT_TASK.md)
+- [`docs/ARTIFACTS.md`](docs/ARTIFACTS.md)
+
+Current stop state: external Stage 0.5 is unresolved, Stage 1 passed as Case B, and Stage 2 is suspended. The next authorized experiment is one full official scratch DT-Net seed on a high-memory GPU.
+
 This repository provides a pipeline for **assigning point pairs to binary region images** — the core annotation step in a study examining the relationship between topological quantities and the difficulty of two-point connectivity classification.
 
 Given a binary mask image (e.g., a retinal vessel segmentation), the pipeline samples pairs of points (A, B) from the foreground (or background) region and records geometric features for each pair: Euclidean distance, geodesic distance, geodesic/Euclidean ratio, boundary-crossing count, connected-component membership, and a composite difficulty proxy. These labelled pairs serve as the dataset for downstream connectivity classification experiments.
